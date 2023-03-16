@@ -1,13 +1,13 @@
 /* ---------------------------------------------------------------------------------------------
 
-	Theme Name: Gatewood
-    Text Domain: gatewood
+	Theme Name: Abisko
+    Text Domain: abisko
 	Version: 0.1
-	Description: Gatewood is a XXX. Demo: https://andersnoren.se/themes/gatewood/
-	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, right-sidebar
+	Description: Abisko is a XXX. Demo: https://andersnoren.se/themes/abisko/
+	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
-	Theme URI: https://andersnoren.se/teman/gatewood-wordpress-theme/
+	Theme URI: https://andersnoren.se/teman/abisko-wordpress-theme/
 	License: GNU General Public License version 2.0
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Requires PHP: 5.6
@@ -37,8 +37,8 @@ input, textarea, select, button {
 }
 
 input, textarea, select {
-	background-color: var( --wp--preset--color--tertiary );
-	border: .1rem solid var( --wp--preset--color--secondary );
+	background-color: var( --wp--preset--color--background );
+	border: .1rem solid;
 	border-radius: .4rem;
 	box-sizing: border-box;
 	color: var( --wp--preset--color--foreground );
@@ -125,31 +125,6 @@ p.has-background {
 /* Blocks
 /* ------------------------------------------- */
 
-/* Shared Block Styles ----------------------- */
-
-/* STYLE: TORN EDGE */
-
-:root {
-	--torn-s: .2vw;
-	--torn-m: .4vw;
-	--torn-l: .6vw;
-	--tear-top: 8% calc( 100% - var( --torn-s ) ), 11% 100%, 17% calc( 100% - var( --torn-m ) ), 21% calc( 100% - var( --torn-s ) ), 26% calc( 100% - var( --torn-m ) ), 29% calc( 100% - var( --torn-s ) ), 31% calc( 100% - var( --torn-m ) ), 40% 100%, 45% calc( 100% - var( --torn-s ) ), 47% calc( 100% - var( --torn-s ) ), 55% calc( 100% - var( --torn-l ) ), 61% calc( 100% - var( --torn-s ) ), 65% calc( 100% - var( --torn-m ) ), 70% 100%, 74% calc( 100% - var( --torn-s ) ), 82% 100%, 86% calc( 100% - var( --torn-s ) ), 90% 100%, 96% calc( 100% - var( --torn-s ) );
-	--tear-bottom: 96% var( --torn-s ), 90% 0, 86% var( --torn-s ), 82% 0, 74% var( --torn-s ), 70% 0, 65% var( --torn-m ), 61% var( --torn-s ), 55% var( --torn-l ), 47% var( --torn-s ), 45% var( --torn-s ), 40% 0, 31% var( --torn-m ), 29% var( --torn-s ), 26% var( --torn-m ), 21% var( --torn-s ), 17% var( --torn-m ), 11% 0, 8% var( --torn-s );
-}
-
-:root:not(.has-modal-open) .is-style-gatewood-torn-edge-top { clip-path: polygon( 0 100%, 100% 100%, 100% 0, var( --tear-bottom ), 0 0 ); }
-:root:not(.has-modal-open) .is-style-gatewood-torn-edge-bottom { clip-path: polygon( 0 100%, var( --tear-top ), 100% 100%, 100% 0, 0 0 ); }
-:root:not(.has-modal-open) .is-style-gatewood-torn-edge-vertical { clip-path: polygon( 0 100%, var( --tear-top ),100% 100%, 100% 0, var( --tear-bottom ), 0 0 ); }
-
-.site-header:has( .alignfull[class*="-gatewood-torn-edge-"] ) {
-	position: relative;
-	z-index: 1;
-}
-
-.site-header:has( .alignfull[class*="-gatewood-torn-edge-"] ) + main {
-	margin-top: calc( -1 * var( --torn-l ) ) !important;
-}
-
 /* Block: Avatar ----------------------------- */
 
 .wp-block-avatar img {
@@ -178,18 +153,6 @@ p.has-background {
 	justify-content: space-between;
 }
 
-/* Block: Group ------------------------------ */
-
-/* STYLE: TOPOGRAPHY PATTERN */
-
-[class*="-gatewood-topography-bg-"] {
-	background-size: 1400px 1400px;
-	background-position: top left;
-}
-
-.is-style-gatewood-topography-bg-light { background-image: url( ./assets/images/bg-pattern-light.png ); }
-.is-style-gatewood-topography-bg-dark { background-image: url( ./assets/images/bg-pattern-dark.png ); }
-
 /* Block: Latest Comments -------------------- */
 
 .wp-block-latest-comments__comment {
@@ -216,7 +179,7 @@ p.has-background {
 :root .wp-block-query-pagination-numbers:last-child { margin-right: auto; }
 
 [class^="wp-block-query-pagination-"][class*="-arrow"] {
-	color: var( --wp--preset--color--tertiary );
+	color: var( --wp--preset--color--foreground );
 	font-weight: 500;
 	padding-bottom: .33em;
 	text-align: center;
@@ -272,10 +235,6 @@ ol.wp-block-comment-template {
 	display: none;
 }
 
-.logged-in-as {
-	color: var( --wp--preset--color--secondary );
-}
-
 .comment-reply-title {
 	margin: 0;
 }
@@ -310,14 +269,6 @@ ol.wp-block-comment-template {
 }
 
 /* Block: Separator -------------------------- */
-
-hr[class*="is-style-gatewood-dashed"] {
-	background-color: transparent !important;
-	background-image: linear-gradient(90deg, currentColor, currentColor 50%, transparent 50%, transparent 100%);
-  	background-size: 32px 1px;
-	height: 1px !important;
-	width: 100% !important;
-}
 
 /* Block: Search Form ------------------------ */
 

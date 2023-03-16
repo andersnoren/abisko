@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Example pattern
- * Slug: gatewood/example-pattern
- * Categories: gatewood
+ * Slug: abisko/example-pattern
+ * Categories: abisko
  */
 ?>
