@@ -135,7 +135,8 @@ p.has-background {
 
 .wp-block-button.is-style-outline>.wp-block-button__link, 
 .wp-block-button .wp-block-button__link.is-style-outline {
-	padding: calc( 1em - 2px ) calc( 1.75em - 2px ) calc( 1.1em - 2px );
+	border-width: 1px;
+	padding: calc( 1em - 1px ) calc( 1.33em - 1px ) calc( 1.1em - 1px );
 }
 
 /* Block: Comments --------------------------- */
