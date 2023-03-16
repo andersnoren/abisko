@@ -27,6 +27,20 @@ Plus Jakarta Sans font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Figtree/
 
+=== Images in screenshot.jpg ===
+
+Korean Bibimbap with dumpling
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/447990/bibimbap-bowl
+
+Mountain photo in boat
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://commons.wikimedia.org/wiki/File:Lago_di_Braies_on_boat.jpg
+
+Lady Bird Johnson Grove in Northern California
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/422019/lady-bird-johnson-grove
+
 
 == Changelog ==
 
