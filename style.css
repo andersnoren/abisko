@@ -1,0 +1,350 @@
+/* ---------------------------------------------------------------------------------------------
+
+	Theme Name: Gatewood
+    Text Domain: gatewood
+	Version: 0.1
+	Description: Gatewood is a XXX. Demo: https://andersnoren.se/themes/gatewood/
+	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, right-sidebar
+	Author: Anders Norén
+	Author URI: https://andersnoren.se
+	Theme URI: https://andersnoren.se/teman/gatewood-wordpress-theme/
+	License: GNU General Public License version 2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Requires PHP: 5.6
+	Tested up to: 6.2
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+/* --------------------------------------------------------------------------------------------- */
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+a { text-underline-offset: 0.2em; }
+
+/* Input styles */
+
+input, textarea, select, button {
+	background-color: inherit;
+	border-radius: 0;
+	font-family: inherit;
+	font-size: inherit;
+	letter-spacing: inherit;
+	margin: 0;
+}
+
+input, textarea, select {
+	background-color: var( --wp--preset--color--tertiary );
+	border: .1rem solid var( --wp--preset--color--secondary );
+	border-radius: .4rem;
+	box-sizing: border-box;
+	color: var( --wp--preset--color--foreground );
+	max-width: 100%;
+	padding: .5em;
+}
+
+label {
+	font-size: var( --wp--preset--font-size--small );
+	font-weight: 500;
+}
+
+/* Figure Styles */
+
+figure {
+	margin: 0;
+}
+
+/* Editor Post Title */
+
+.editor-post-title__input { 
+	text-align: center;
+}
+
+/* Background Padding */
+
+h1.has-background, 
+h2.has-background, 
+h3.has-background, 
+h4.has-background, 
+h5.has-background, 
+h6.has-background,
+p.has-background {
+	padding: 1em;
+}
+
+:where(.wp-block-group.has-background) {
+	padding: 2em;
+}
+
+/* ------------------------------------------- */
+/*	Helper Classes
+/* ------------------------------------------- */
+
+@media ( min-width: 782px ) {
+	.hide-desktop {
+		display: none !important;
+	}
+}
+
+/* ------------------------------------------- */
+/* Template Parts
+/* ------------------------------------------- */
+
+.site-footer.wp-block-template-part {
+	margin-top: 0;
+}
+
+@media ( max-width: 500px ) {
+	.theme-credit {
+		display: none;
+	}
+}
+
+/* ------------------------------------------- */
+/*	Typography
+/* ------------------------------------------- */
+
+.has-huge-font-size,
+.has-heading-1-font-size,
+.has-heading-2-font-size,
+.has-heading-3-font-size,
+.has-heading-4-font-size,
+.has-heading-5-font-size { 
+	letter-spacing: var( --wp--custom--typography--letter-spacing--heading );
+	line-height: var( --wp--custom--typography--line-height--heading ); 
+}
+
+.has-medium-font-size {
+	line-height: var( --wp--custom--typography--line-height--body );
+}
+
+/* ------------------------------------------- */
+/* Blocks
+/* ------------------------------------------- */
+
+/* Shared Block Styles ----------------------- */
+
+/* STYLE: TORN EDGE */
+
+:root {
+	--torn-s: .2vw;
+	--torn-m: .4vw;
+	--torn-l: .6vw;
+	--tear-top: 8% calc( 100% - var( --torn-s ) ), 11% 100%, 17% calc( 100% - var( --torn-m ) ), 21% calc( 100% - var( --torn-s ) ), 26% calc( 100% - var( --torn-m ) ), 29% calc( 100% - var( --torn-s ) ), 31% calc( 100% - var( --torn-m ) ), 40% 100%, 45% calc( 100% - var( --torn-s ) ), 47% calc( 100% - var( --torn-s ) ), 55% calc( 100% - var( --torn-l ) ), 61% calc( 100% - var( --torn-s ) ), 65% calc( 100% - var( --torn-m ) ), 70% 100%, 74% calc( 100% - var( --torn-s ) ), 82% 100%, 86% calc( 100% - var( --torn-s ) ), 90% 100%, 96% calc( 100% - var( --torn-s ) );
+	--tear-bottom: 96% var( --torn-s ), 90% 0, 86% var( --torn-s ), 82% 0, 74% var( --torn-s ), 70% 0, 65% var( --torn-m ), 61% var( --torn-s ), 55% var( --torn-l ), 47% var( --torn-s ), 45% var( --torn-s ), 40% 0, 31% var( --torn-m ), 29% var( --torn-s ), 26% var( --torn-m ), 21% var( --torn-s ), 17% var( --torn-m ), 11% 0, 8% var( --torn-s );
+}
+
+:root:not(.has-modal-open) .is-style-gatewood-torn-edge-top { clip-path: polygon( 0 100%, 100% 100%, 100% 0, var( --tear-bottom ), 0 0 ); }
+:root:not(.has-modal-open) .is-style-gatewood-torn-edge-bottom { clip-path: polygon( 0 100%, var( --tear-top ), 100% 100%, 100% 0, 0 0 ); }
+:root:not(.has-modal-open) .is-style-gatewood-torn-edge-vertical { clip-path: polygon( 0 100%, var( --tear-top ),100% 100%, 100% 0, var( --tear-bottom ), 0 0 ); }
+
+.site-header:has( .alignfull[class*="-gatewood-torn-edge-"] ) {
+	position: relative;
+	z-index: 1;
+}
+
+.site-header:has( .alignfull[class*="-gatewood-torn-edge-"] ) + main {
+	margin-top: calc( -1 * var( --torn-l ) ) !important;
+}
+
+/* Block: Avatar ----------------------------- */
+
+.wp-block-avatar img {
+	display: block;
+}
+
+/* Block: Button ----------------------------- */
+
+.wp-block-button.is-style-outline>.wp-block-button__link, 
+.wp-block-button .wp-block-button__link.is-style-outline {
+	padding: calc( 1em - 2px ) calc( 1.75em - 2px ) calc( 1.1em - 2px );
+}
+
+/* Block: Comments --------------------------- */
+
+#cancel-comment-reply-link {
+	font-weight: 500;
+	letter-spacing: var(--wp--custom--typography--letter-spacing--body);
+}
+
+/* Block: File ------------------------------- */
+
+.wp-block-file {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Block: Group ------------------------------ */
+
+/* STYLE: TOPOGRAPHY PATTERN */
+
+[class*="-gatewood-topography-bg-"] {
+	background-size: 1400px 1400px;
+	background-position: top left;
+}
+
+.is-style-gatewood-topography-bg-light { background-image: url( ./assets/images/bg-pattern-light.png ); }
+.is-style-gatewood-topography-bg-dark { background-image: url( ./assets/images/bg-pattern-dark.png ); }
+
+/* Block: Latest Comments -------------------- */
+
+.wp-block-latest-comments__comment {
+	line-height: inherit;
+}
+
+/* Block: Navigation ------------------------- */
+
+.wp-block-navigation__responsive-container-close svg { transform: scale( 1.25 ); }
+.wp-block-navigation__responsive-container-open svg { transform: scale( 1.5, 1.25 ); }
+
+/* Block: Pagination ------------------------- */
+
+.pagination-wrapper:not( :has( .wp-block-query-pagination ) ) {
+	display: none;
+}
+
+.wp-block-query-pagination-numbers {
+	display: flex;
+	gap: .88em;
+}
+
+:root .wp-block-query-pagination-numbers:first-child { margin-left: auto; }
+:root .wp-block-query-pagination-numbers:last-child { margin-right: auto; }
+
+[class^="wp-block-query-pagination-"][class*="-arrow"] {
+	color: var( --wp--preset--color--tertiary );
+	font-weight: 500;
+	padding-bottom: .33em;
+	text-align: center;
+	width: 1.75em;
+}
+
+.wp-block-query-pagination-previous,
+.wp-block-query-pagination-next {
+	position: relative;
+}
+
+.wp-block-query-pagination-previous:before,
+.wp-block-query-pagination-next:before {
+	background-color: currentColor;
+	border-radius: 50%;
+	content: "";
+	display: block;
+	position: absolute;
+		top: calc( 50% - .875em );
+	height: 1.75em;
+	width: 1.75em;
+}
+
+.wp-block-query-pagination-previous:before { left: 0; }
+.wp-block-query-pagination-next:before { right: 0; }
+
+@media ( max-width: 600px ) {
+	.wp-block-query-pagination-numbers:not(:only-child) {
+		display: none;
+	}
+}
+
+/* Block: Paragraph -------------------------- */
+
+.has-drop-cap:not(:focus):first-letter {
+	border: .2rem solid currentColor;
+    font-size: 2.75em;
+    font-weight: var( --wp--custom--typography--font-weight--bold );
+	margin: .09em 1rem .5rem 0;
+	min-width: .6875em;
+	padding: 0.3em;
+	text-align: center;
+}
+
+/* Block: Post Comments Form ----------------- */
+
+ol.wp-block-comment-template {
+	margin: 0;
+}
+
+.required-field-message,
+.comment-notes {
+	display: none;
+}
+
+.logged-in-as {
+	color: var( --wp--preset--color--secondary );
+}
+
+.comment-reply-title {
+	margin: 0;
+}
+
+/* Block: Post Navigation -------------------- */
+
+.post-navigation-link-previous a:before { content: "← "; }
+.post-navigation-link-next a:after { content: " →"; }
+
+/* Block: Pull Quote ------------------------- */
+
+:root .wp-block-pullquote blockquote p {
+	hanging-punctuation: first;
+	font-size: inherit;
+}
+
+:root .wp-block-pullquote.has-text-align-left, 
+:root .wp-block-pullquote.has-text-align-right {
+	max-width: 100%;
+}
+
+/* Block: Query Pagination ------------------- */
+
+.wp-block-query-pagination > .wp-block-query-pagination-next, 
+.wp-block-query-pagination > .wp-block-query-pagination-numbers, 
+.wp-block-query-pagination > .wp-block-query-pagination-previous {
+	margin-bottom: 0;
+}
+
+.wp-block-query-pagination-next:only-child {
+	margin-left: auto;
+}
+
+/* Block: Separator -------------------------- */
+
+hr[class*="is-style-gatewood-dashed"] {
+	background-color: transparent !important;
+	background-image: linear-gradient(90deg, currentColor, currentColor 50%, transparent 50%, transparent 100%);
+  	background-size: 32px 1px;
+	height: 1px !important;
+	width: 100% !important;
+}
+
+/* Block: Search Form ------------------------ */
+
+.wp-block-search {
+	font-size: var( --wp--preset--font-size--small );
+}
+
+.wp-block-search .wp-block-search__label {
+	font-weight: inherit;
+}
+
+.wp-block-search__input {
+	margin: 0;
+	padding: .75em 1.25em;
+}
+
+.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.wp-block-search__button-inside .wp-block-search__input {
+	margin: 0;
+	padding: .375em .5em !important;
+}
+
+.wp-block-search__button { 
+	margin: 0 0 0 .75em;
+}
+
+/* Block: Term Description ------------------- */
+
+.wp-block-term-description > *:first-child { margin-top: 0; }
+.wp-block-term-description > *:last-child { margin-bottom: 0; }
