@@ -2,7 +2,7 @@
 
 Abisko is a...
 
-![Abisko](https://github.com/andersnoren/abisko/blob/main/screenshot.png)
+![Abisko](https://github.com/andersnoren/abisko/blob/main/screenshot.jpg)
 
 You can download the latest stable release of Abisko [from WordPress.org](https://wordpress.org/themes/abisko/).
 
