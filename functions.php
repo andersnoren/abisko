@@ -68,7 +68,11 @@ add_action( 'init', 'abisko_register_block_patterns' );
 if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 	function abisko_register_block_styles() {
 
-		
+		// Featured Image: Aspect Ratio: Square
+		register_block_style( 'core/post-featured-image', array(
+			'name'  	=> 'abisko-ar-1x1',
+			'label' 	=> esc_html__( 'Aspect Ratio: Square', 'abisko' ),
+		) );
 		
 	}
 	add_action( 'init', 'abisko_register_block_styles' );
