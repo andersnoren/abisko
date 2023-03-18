@@ -25,6 +25,11 @@
 					"color": "#FFF",
 					"name": "Background",
 					"slug": "background"
+				},
+				{
+					"color": "#767679",
+					"name": "Primary",
+					"slug": "primary"
 				}
 			]
 		},
@@ -427,11 +432,6 @@
 			"core/query-pagination": {
 				"elements": {
 					"link": {
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						},
 						"typography": {
 							"textDecoration": "none"
 						}
