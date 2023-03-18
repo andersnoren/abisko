@@ -169,60 +169,58 @@ p.has-background {
 
 /* STYLE: ARROW LINKS */
 
-:root [class*="abisko-arrow-links"] {
+.wp-block-query-pagination {
 	--stem: .12em;
-	gap: .333em;
 }
 
-:root [class*="abisko-arrow-links"] > * {
+:root .wp-block-query-pagination > * {
 	margin: 0;
 }
 
-[class*="abisko-arrow-links"] > :not([class*="numbers"]) {
+.wp-block-query-pagination > :not([class*="numbers"]) {
 	display: flex;
-	white-space: nowrap !important;
+	gap: max(8px, .333em);
 }
 
-[class*="abisko-arrow-links"] > :not([class*="numbers"]) {
-	flex-grow: 1;
-}
-
-[class*="abisko-arrow-links"] > :not([class*="numbers"]):only-child {
+.wp-block-query-pagination[class*="-justification-stretch"] > :not([class*="numbers"]):only-child {
 	width: 100%;
 }
 
-[class*="abisko-arrow-links"] > :not([class*="numbers"]),
-[class*="abisko-arrow-links"] > :not([class*="numbers"]) .rich-text {
+.wp-block-query-pagination > :not([class*="numbers"]),
+.wp-block-query-pagination > :not([class*="numbers"]) .rich-text {
 	flex-shrink: 0;
 	white-space: nowrap !important;
 }
 
-[class*="abisko-arrow-links"] a {
+.wp-block-query-pagination > [class*="numbers"] {
+	display: flex;
+	flex-wrap: wrap;
+	gap: max(8px, .1666em);
+}
+
+/* Hover Styles */
+
+.wp-block-query-pagination a {
 	transition: color .2s;
 }
 
-[class*="abisko-arrow-links"] .page-numbers.current,
-[class*="abisko-arrow-links"] a:hover,
-[class*="abisko-arrow-links"] a:focus {
+.wp-block-query-pagination .page-numbers.current,
+.wp-block-query-pagination a:hover,
+.wp-block-query-pagination a:focus {
 	color: var(--wp--preset--color--primary);
-}
-
-[class*="abisko-arrow-links"] .wp-block-query-pagination-numbers {
-	display: flex;
-	flex-wrap: wrap;
-	gap: .16667em;
 }
 
 /* Pseudo Dots */
 
-[class*="abisko-arrow-links"] .page-numbers.dots {
+.wp-block-query-pagination .page-numbers.dots {
 	--dot: calc( 1.5 * var( --stem ) );
-	position: relative;
 	-webkit-text-fill-color: transparent;
 	max-width: var( --dot );
+	overflow-wrap: normal;
+	position: relative;
 }
 
-[class*="abisko-arrow-links"] .page-numbers.dots:before {
+.page-numbers.dots:before {
 	background: currentColor;
 	border-radius: 50%;
 	content: "";
@@ -235,9 +233,9 @@ p.has-background {
 	width: var( --dot );
 }
 
-/* Pseudo Arrows */
+/* Pseudo Chevron/Arrows */
 
-[class*="abisko-arrow-links"] [class^="wp-block-query-pagination-"][class*="arrow-arrow"] {
+.wp-block-query-pagination [class^="wp-block-query-pagination-"][class*="-arrow"] {
 	-webkit-text-fill-color: transparent;
 	margin: 0;
 	min-width: calc( 8 * var( --stem ) );
@@ -245,11 +243,15 @@ p.has-background {
 	width: 100%;
 }
 
-[class*="abisko-arrow-links"] [class*="previous-arrow"] { transform: translateY( .033em ) !important; }
-[class*="abisko-arrow-links"] [class*="next-arrow"] { transform: rotateY( 180deg ) translateY( .033em ) !important; }
+:root .wp-block-query-pagination .is-arrow-chevron { 
+	min-width: calc( 4 * var( --stem ) ); 
+}
 
-[class*="abisko-arrow-links"] [class^="wp-block-query-pagination-"][class*="arrow-arrow"]:before,
-[class*="abisko-arrow-links"] [class^="wp-block-query-pagination-"][class*="arrow-arrow"]:after {
+:root .wp-block-query-pagination [class*="previous-arrow"] { transform: translateY( .033em ); }
+:root .wp-block-query-pagination [class*="next-arrow"] { transform: rotateY( 180deg ) translateY( .033em ); }
+
+[class^="wp-block-query-pagination-"][class*="-arrow"]:before,
+[class^="wp-block-query-pagination-"][class*="-arrow"]:after {
 	content: "";
     display: block;
 	position: absolute;
@@ -258,7 +260,7 @@ p.has-background {
 		top: 50%;
 }
 
-[class*="abisko-arrow-links"] [class^="wp-block-query-pagination-"][class*="arrow-arrow"]:before {
+[class^="wp-block-query-pagination-"][class*="-arrow"]:before {
 	border: solid;
     border-width: 0 0 var( --stem ) var( --stem );
     height: calc( 4 * var( --stem ) );
@@ -267,7 +269,7 @@ p.has-background {
     width: calc( 4 * var( --stem ) );
 }
 
-[class*="abisko-arrow-links"] [class^="wp-block-query-pagination-"][class*="arrow-arrow"]:after {
+[class^="wp-block-query-pagination-"][class*="-arrow-arrow"]:after {
 	background: currentColor;
     height: var( --stem );
 	margin-top: calc( -.5 * var( --stem ) );

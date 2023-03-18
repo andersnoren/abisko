@@ -436,6 +436,9 @@
 							"textDecoration": "none"
 						}
 					}
+				},
+				"spacing": {
+					"blockGap": "max(16px, .45em)"
 				}
 			},
 			"core/quote": {

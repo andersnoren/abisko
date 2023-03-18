@@ -74,12 +74,6 @@ if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 			'label' 	=> esc_html__( 'Aspect Ratio: Square', 'abisko' ),
 		) );
 
-		// Pagination: Arrow Links
-		register_block_style( 'core/query-pagination', array(
-			'name'  	=> 'abisko-arrow-links',
-			'label' 	=> esc_html__( 'Arrow Links', 'abisko' ),
-		) );
-		
 	}
 	add_action( 'init', 'abisko_register_block_styles' );
 endif;
