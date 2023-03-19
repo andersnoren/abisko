@@ -61,6 +61,25 @@ add_action( 'init', 'abisko_register_block_patterns' );
 
 
 /*	-----------------------------------------------------------------------------------------------
+	FILTER COMMENT FORM DEFAULTS
+	Modify the heading and title of the comments form.
+--------------------------------------------------------------------------------------------------- */
+
+function abisko_comment_form_defaults( $defaults ) {
+
+	$defaults = array_merge( $defaults, array(
+		'title_reply_before' 	=> '<h2 id="reply-title" class="comment-reply-title">',
+		'title_reply_after' 	=> '</h2>',
+		'title_reply' 			=> __( 'Reply', 'abisko' )
+	) );
+
+	return $defaults;
+
+}
+add_filter( 'comment_form_defaults', 'abisko_comment_form_defaults' );
+
+
+/*	-----------------------------------------------------------------------------------------------
 	BLOCK STYLES
 	Register theme specific block styles.
 --------------------------------------------------------------------------------------------------- */
@@ -78,6 +97,18 @@ if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 		register_block_style( 'core/post-terms', array(
 			'name'  	=> 'abisko-terms-buttons',
 			'label' 	=> esc_html__( 'Buttons', 'abisko' ),
+		) );
+
+		// Column: -90° Contents On Desktop
+		register_block_style( 'core/column', array(
+			'name'  	=> 'abisko-minus-90-deg-column-content-desktop',
+			'label' 	=> esc_html__( '-90° Contents On Desktop', 'abisko' ),
+		) );
+
+		// Post Comments Form: Rotated Title to the Right on Desktop
+		register_block_style( 'core/post-comments-form', array(
+			'name'  	=> 'abisko-rotated-title',
+			'label' 	=> esc_html__( 'Rotated Title to the Right on Desktop', 'abisko' ),
 		) );
 
 	}

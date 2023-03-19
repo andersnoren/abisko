@@ -47,7 +47,7 @@ input, textarea, select {
 }
 
 label {
-	font-size: inherit;
+	font-size: var( --wp--preset--font-size--small );
 }
 
 /* Figure Styles */
@@ -150,11 +150,25 @@ p.has-background {
 	padding: calc( 1em - 1px ) calc( 1.33em - 1px ) calc( 1.1em - 1px );
 }
 
-/* Block: Comments --------------------------- */
+/* Block: Columns ---------------------------- */
 
-#cancel-comment-reply-link {
-	font-weight: 500;
-	letter-spacing: var(--wp--custom--typography--letter-spacing--body);
+/* STYLE: MINUS 90 DEGREE CONTENTS WHILE NOT STACKED */
+
+@media ( min-width: 782px ) {
+
+	.is-style-abisko-minus-90-deg-column-content-desktop {
+		position: relative;
+	}
+
+	.is-style-abisko-minus-90-deg-column-content-desktop > * {
+		position: absolute;
+			top: 0;
+			left: 50%;
+		transform-origin: top left;
+		transform: rotate( 90deg ) translate( 0%, -50% );
+		white-space: nowrap;
+	}
+
 }
 
 /* Block: File ------------------------------- */
@@ -179,12 +193,12 @@ p.has-background {
 /* Block: Paragraph -------------------------- */
 
 .has-drop-cap:not(:focus):first-letter {
-	border: .2rem solid currentColor;
+	border: 1px solid currentColor;
     font-size: 2.75em;
-    font-weight: var( --wp--custom--typography--font-weight--bold );
-	margin: .09em 1rem .5rem 0;
+	font-weight: 500;
+	margin: .09em 1rem .4rem 0;
 	min-width: .6875em;
-	padding: 0.3em;
+	padding: .35em;
 	text-align: center;
 }
 
@@ -192,6 +206,10 @@ p.has-background {
 
 ol.wp-block-comment-template {
 	margin: 0;
+}
+
+.wp-block-comment-template .comment-respond:not(:last-child) {
+	margin-bottom: var(--wp--preset--spacing--60);
 }
 
 .required-field-message,
@@ -202,6 +220,67 @@ ol.wp-block-comment-template {
 .comment-reply-title {
 	margin: 0;
 }
+
+.wp-block-post-comments-form .comment-reply-title :where(small) {
+	display: block;
+	font-weight: 700;
+	letter-spacing: 0;
+	margin: 1em 0;
+	text-transform: none;
+}
+
+:root .comment-form-comment label,
+:root .comment-form-author label, 
+:root .comment-form-email label,
+:root .comment-form-url label {
+	display: block;
+	margin: 0 0 var( --wp--preset--spacing--10 );
+}
+
+.wp-block-post-comments-form input:not([type=submit]), 
+.wp-block-post-comments-form textarea {
+	border-color: currentColor;
+}
+
+@media ( min-width: 782px ) {
+
+	.wp-block-post-comments-form .comment-form {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var( --wp--preset--spacing--40 );
+	}
+
+	.wp-block-post-comments-form .comment-form > p {
+		margin: 0;
+		width: 100%;
+	}
+
+	.wp-block-post-comments-form .comment-form > .comment-form-author,
+	.wp-block-post-comments-form .comment-form > .comment-form-email {
+		width: calc( 50% - ( var( --wp--preset--spacing--40 ) / 2 ) );
+	}
+
+	/* STYLE: ROTATED TITLE */
+
+	.wp-block-post-comments-form.is-style-abisko-rotated-title {
+		position: relative;
+	}
+
+	body:not(:has( ol.wp-block-comment-template .wp-block-post-comments-form )) .wp-block-post-comments-form.is-style-abisko-rotated-title .comment-reply-title {
+		--col-width: calc( ( 100vw - var( --wp--style--global--content-size ) - var(--wp--style--root--padding-left) - var(--wp--style--root--padding-right) - var( --wp--preset--spacing--40 ) - var( --wp--preset--spacing--40 ) ) / 2 );
+		align-items: center;
+		display: flex;
+		height: var( --col-width );
+		position: absolute;
+			left: calc( 100% + var( --wp--preset--spacing--40 ) );
+		transform: rotate( 90deg ) translate( 0%, -100% );
+		transform-origin: top left;
+		white-space: nowrap;
+		width: var( --col-width );
+	}
+
+}
+
 
 /* Block: Post Featured Image ---------------- */
 
@@ -244,7 +323,6 @@ ol.wp-block-comment-template {
 /* Block: Pull Quote ------------------------- */
 
 :root .wp-block-pullquote blockquote p {
-	hanging-punctuation: first;
 	font-size: inherit;
 }
 
@@ -365,8 +443,6 @@ ol.wp-block-comment-template {
     height: var( --stem );
 	margin-top: calc( -.5 * var( --stem ) );
 }
-
-/* Block: Separator -------------------------- */
 
 /* Block: Search Form ------------------------ */
 
