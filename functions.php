@@ -74,6 +74,12 @@ if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 			'label' 	=> esc_html__( 'Aspect Ratio: Square', 'abisko' ),
 		) );
 
+		// Term: Buttons
+		register_block_style( 'core/post-terms', array(
+			'name'  	=> 'abisko-terms-buttons',
+			'label' 	=> esc_html__( 'Buttons', 'abisko' ),
+		) );
+
 	}
 	add_action( 'init', 'abisko_register_block_styles' );
 endif;

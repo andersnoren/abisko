@@ -32,14 +32,14 @@ input, textarea, select, button {
 	border-radius: 0;
 	font-family: inherit;
 	font-size: inherit;
-	letter-spacing: inherit;
+	font-weight: 500;
+	letter-spacing: -0.01em;
 	margin: 0;
 }
 
 input, textarea, select {
 	background-color: var( --wp--preset--color--background );
 	border: .1rem solid;
-	border-radius: .4rem;
 	box-sizing: border-box;
 	color: var( --wp--preset--color--foreground );
 	max-width: 100%;
@@ -47,8 +47,7 @@ input, textarea, select {
 }
 
 label {
-	font-size: var( --wp--preset--font-size--small );
-	font-weight: 500;
+	font-size: inherit;
 }
 
 /* Figure Styles */
@@ -117,6 +116,18 @@ p.has-background {
 	line-height: var( --wp--custom--typography--line-height--heading ); 
 }
 
+.has-huge-font-size,
+.has-extra-large-font-size,
+.has-large-font-size {
+	letter-spacing: -.01em;
+}
+
+.has-medium-font-size,
+.has-small-font-size,
+.has-tiny-font-size {
+	letter-spacing: 0;
+}
+
 .has-medium-font-size {
 	line-height: var( --wp--custom--typography--line-height--body );
 }
@@ -165,116 +176,6 @@ p.has-background {
 .wp-block-navigation__responsive-container-close svg { transform: scale( 1.25 ); }
 .wp-block-navigation__responsive-container-open svg { transform: scale( 1.5, 1.25 ); }
 
-/* Block: Pagination ------------------------- */
-
-/* STYLE: ARROW LINKS */
-
-.wp-block-query-pagination {
-	--stem: .12em;
-}
-
-:root .wp-block-query-pagination > * {
-	margin: 0;
-}
-
-.wp-block-query-pagination > :not([class*="numbers"]) {
-	display: flex;
-	gap: max(8px, .333em);
-}
-
-.wp-block-query-pagination[class*="-justification-stretch"] > :not([class*="numbers"]):only-child {
-	width: 100%;
-}
-
-.wp-block-query-pagination > :not([class*="numbers"]),
-.wp-block-query-pagination > :not([class*="numbers"]) .rich-text {
-	flex-shrink: 0;
-	white-space: nowrap !important;
-}
-
-.wp-block-query-pagination > [class*="numbers"] {
-	display: flex;
-	flex-wrap: wrap;
-	gap: max(8px, .1666em);
-}
-
-/* Hover Styles */
-
-.wp-block-query-pagination a {
-	transition: color .2s;
-}
-
-.wp-block-query-pagination .page-numbers.current,
-.wp-block-query-pagination a:hover,
-.wp-block-query-pagination a:focus {
-	color: var(--wp--preset--color--primary);
-}
-
-/* Pseudo Dots */
-
-.wp-block-query-pagination .page-numbers.dots {
-	--dot: calc( 1.5 * var( --stem ) );
-	-webkit-text-fill-color: transparent;
-	max-width: var( --dot );
-	overflow-wrap: normal;
-	position: relative;
-}
-
-.page-numbers.dots:before {
-	background: currentColor;
-	border-radius: 50%;
-	content: "";
-	display: block;
-	height: var( --dot );
-	position: absolute;
-		left: calc( 50% - ( .5 * var( --dot ) ) );
-		top: calc( 50% - ( .5 * var( --dot ) ) );
-	transform: translateY( 15% );
-	width: var( --dot );
-}
-
-/* Pseudo Chevron/Arrows */
-
-.wp-block-query-pagination [class^="wp-block-query-pagination-"][class*="-arrow"] {
-	-webkit-text-fill-color: transparent;
-	margin: 0;
-	min-width: calc( 8 * var( --stem ) );
-	position: relative;
-	width: 100%;
-}
-
-:root .wp-block-query-pagination .is-arrow-chevron { 
-	min-width: calc( 4 * var( --stem ) ); 
-}
-
-:root .wp-block-query-pagination [class*="previous-arrow"] { transform: translateY( .033em ); }
-:root .wp-block-query-pagination [class*="next-arrow"] { transform: rotateY( 180deg ) translateY( .033em ); }
-
-[class^="wp-block-query-pagination-"][class*="-arrow"]:before,
-[class^="wp-block-query-pagination-"][class*="-arrow"]:after {
-	content: "";
-    display: block;
-	position: absolute;
-		left: var( --stem );
-		right: 0;
-		top: 50%;
-}
-
-[class^="wp-block-query-pagination-"][class*="-arrow"]:before {
-	border: solid;
-    border-width: 0 0 var( --stem ) var( --stem );
-    height: calc( 4 * var( --stem ) );
-	margin-top: calc( -2.5 * var( --stem ) );
-    transform: rotate( 45deg );
-    width: calc( 4 * var( --stem ) );
-}
-
-[class^="wp-block-query-pagination-"][class*="-arrow-arrow"]:after {
-	background: currentColor;
-    height: var( --stem );
-	margin-top: calc( -.5 * var( --stem ) );
-}
-
 /* Block: Paragraph -------------------------- */
 
 .has-drop-cap:not(:focus):first-letter {
@@ -315,10 +216,30 @@ ol.wp-block-comment-template {
 	aspect-ratio: 1/1 !important;
 }
 
-/* Block: Post Navigation -------------------- */
+/* Block: Post Terms ------------------------- */
 
-.post-navigation-link-previous a:before { content: "← "; }
-.post-navigation-link-next a:after { content: " →"; }
+/* STYLE: BUTTONS */
+
+.is-style-abisko-terms-buttons {
+	display: flex;
+	gap: var(--wp--preset--spacing--10);
+	flex-wrap: wrap;
+}
+
+.is-style-abisko-terms-buttons .wp-block-post-terms__separator {
+	display: none;
+}
+
+.is-style-abisko-terms-buttons a {
+	border: 1px solid;
+	padding: .5em 1em .55em;
+	text-decoration: none;
+}
+
+.is-style-abisko-terms-buttons a:hover,
+.is-style-abisko-terms-buttons a:focus {
+	text-decoration: underline;
+}
 
 /* Block: Pull Quote ------------------------- */
 
@@ -334,14 +255,115 @@ ol.wp-block-comment-template {
 
 /* Block: Query Pagination ------------------- */
 
-.wp-block-query-pagination > .wp-block-query-pagination-next, 
-.wp-block-query-pagination > .wp-block-query-pagination-numbers, 
-.wp-block-query-pagination > .wp-block-query-pagination-previous {
-	margin-bottom: 0;
+/* STYLE: ARROW LINKS */
+
+[class*="wp-block-"][class*="-pagination"] {
+	--stem: .11em;
 }
 
-.wp-block-query-pagination-next:only-child {
-	margin-left: auto;
+:root [class*="wp-block-"][class*="-pagination"] > * {
+	margin: 0;
+}
+
+.wp-block-comments-pagination a,
+.wp-block-query-pagination > :not([class*="numbers"]) {
+	display: flex;
+	gap: max(8px, .333em);
+}
+
+.wp-block-query-pagination[class*="-justification-stretch"] > :not([class*="numbers"]):only-child {
+	width: 100%;
+}
+
+.wp-block-comments-pagination a,
+.wp-block-comments-pagination a .rich-text,
+.wp-block-query-pagination > :not([class*="numbers"]),
+.wp-block-query-pagination > :not([class*="numbers"]) .rich-text {
+	flex-shrink: 0;
+	white-space: nowrap !important;
+}
+
+.wp-block-query-pagination > [class*="numbers"] {
+	display: flex;
+	flex-wrap: wrap;
+	gap: max(8px, .1666em);
+}
+
+/* Hover Styles */
+
+[class*="wp-block-"][class*="-pagination"] a {
+	transition: color .2s;
+}
+
+[class*="wp-block-"][class*="-pagination"] a:hover,
+[class*="wp-block-"][class*="-pagination"] a:focus,
+.wp-block-query-pagination .page-numbers.current {
+	color: var(--wp--preset--color--primary);
+}
+
+/* Pseudo Dots */
+
+.wp-block-query-pagination .page-numbers.dots {
+	--dot: calc( 1.5 * var( --stem ) );
+	-webkit-text-fill-color: transparent;
+	max-width: var( --dot );
+	overflow-wrap: normal;
+	position: relative;
+}
+
+.page-numbers.dots:before {
+	background: currentColor;
+	border-radius: 50%;
+	content: "";
+	display: block;
+	height: var( --dot );
+	position: absolute;
+		left: calc( 50% - ( .5 * var( --dot ) ) );
+		top: calc( 50% - ( .5 * var( --dot ) ) );
+	transform: translateY( 15% );
+	width: var( --dot );
+}
+
+/* Pseudo Chevron/Arrows */
+
+[class*="wp-block-"][class*="-pagination"] [class*="is-arrow-"] {
+	-webkit-text-fill-color: transparent;
+	margin: 0;
+	min-width: calc( 8 * var( --stem ) );
+	position: relative;
+	width: 100%;
+}
+
+[class*="wp-block-"][class*="-pagination"] .is-arrow-chevron { 
+	min-width: calc( 4 * var( --stem ) ); 
+}
+
+:root [class*="wp-block-"][class*="-pagination"] [class*="is-arrow-"][class*="previous"] { transform: translateY( .033em ); }
+:root [class*="wp-block-"][class*="-pagination"] [class*="is-arrow-"][class*="next"] { transform: rotateY( 180deg ) translateY( .033em ); }
+
+[class*="wp-block-"][class*="-pagination"] [class*="is-arrow-"]:before,
+[class*="wp-block-"][class*="-pagination"] [class*="is-arrow-"]:after {
+	content: "";
+    display: block;
+	position: absolute;
+		left: var( --stem );
+		right: 0;
+		top: 50%;
+}
+
+[class*="wp-block-"][class*="-pagination"] [class*="is-arrow"]:before {
+	border: solid;
+    border-width: 0 0 var( --stem ) var( --stem );
+    height: calc( 4 * var( --stem ) );
+	margin-top: calc( -2.5 * var( --stem ) );
+    transform: rotate( 45deg );
+    width: calc( 4 * var( --stem ) );
+}
+
+:root [class*="wp-block-"][class*="-pagination"] .is-arrow-arrow:after {
+	background: currentColor;
+    height: var( --stem );
+	margin-top: calc( -.5 * var( --stem ) );
 }
 
 /* Block: Separator -------------------------- */
