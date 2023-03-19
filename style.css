@@ -179,6 +179,26 @@ p.has-background {
 	justify-content: space-between;
 }
 
+/* Block: Heading ---------------------------- */
+
+h1:not([style*="margin-top:"]):not(:first-child),
+h2:not([style*="margin-top:"]):not(:first-child),
+h3:not([style*="margin-top:"]):not(:first-child),
+h4:not([style*="margin-top:"]):not(:first-child),
+h5:not([style*="margin-top:"]):not(:first-child),
+h6:not([style*="margin-top:"]):not(:first-child) {
+	margin-top: min( 1em, var( --wp--preset--spacing--70 ) );
+}
+
+h2:not([style*="margin-bottom:"]):not(:last-child),
+h1:not([style*="margin-bottom:"]):not(:last-child),
+h3:not([style*="margin-bottom:"]):not(:last-child),
+h4:not([style*="margin-bottom:"]):not(:last-child),
+h5:not([style*="margin-bottom:"]):not(:last-child),
+h6:not([style*="margin-bottom:"]):not(:last-child) {
+	margin-bottom: min( 1em, var( --wp--preset--spacing--70 ) );
+}
+
 /* Block: Latest Comments -------------------- */
 
 .wp-block-latest-comments__comment {
