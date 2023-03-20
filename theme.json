@@ -99,6 +99,11 @@
 					"name": "9",
 					"size": "clamp(96px, 16.666vw, 128px)",
 					"slug": "90"
+				},
+				{
+					"name": "10",
+					"size": "clamp(96px, 25vw, 192px)",
+					"slug": "100"
 				}
 			],
 			"units": [

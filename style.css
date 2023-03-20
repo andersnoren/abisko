@@ -326,7 +326,6 @@ ol.wp-block-comment-template {
 
 }
 
-
 /* Block: Post Featured Image ---------------- */
 
 [class*="is-style-abisko-ar-"],
@@ -335,10 +334,11 @@ ol.wp-block-comment-template {
 	overflow: hidden;
 }
 
-.is-style-abisko-ar-1x1.wp-block-post-featured-image,
-.is-style-abisko-ar-1x1.wp-block-post-featured-image img {
-	aspect-ratio: 1/1;
-}
+[class*="ar-1x1"].wp-block-post-featured-image,
+[class*="ar-1x1"].wp-block-post-featured-image img { aspect-ratio: 1/1; }
+
+[class*="ar-4x3"].wp-block-post-featured-image,
+[class*="ar-4x3"].wp-block-post-featured-image img { aspect-ratio: 4/3; }
 
 /* Block: Post Terms ------------------------- */
 

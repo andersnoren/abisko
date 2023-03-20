@@ -78,10 +78,16 @@ add_filter( 'comment_form_defaults', 'abisko_comment_form_defaults' );
 if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 	function abisko_register_block_styles() {
 
-		// Featured Image: Aspect Ratio: Square
+		// Featured Image: Ratio: 1/1
 		register_block_style( 'core/post-featured-image', array(
 			'name'  	=> 'abisko-ar-1x1',
-			'label' 	=> esc_html__( 'Aspect Ratio: Square', 'abisko' ),
+			'label' 	=> esc_html__( 'Ratio: 1/1', 'abisko' ),
+		) );
+
+		// Featured Image: Ratio: 4/3
+		register_block_style( 'core/post-featured-image', array(
+			'name'  	=> 'abisko-ar-4x3',
+			'label' 	=> esc_html__( 'Ratio: 4/3', 'abisko' ),
 		) );
 
 		// Term: Buttons

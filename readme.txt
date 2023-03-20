@@ -29,17 +29,39 @@ Source: https://fonts.google.com/specimen/Figtree/
 
 === Images in screenshot.jpg ===
 
-Korean Bibimbap with dumpling
-License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://www.rawpixel.com/image/447990/bibimbap-bowl
+In order:
 
 Mountain photo in boat
 License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://commons.wikimedia.org/wiki/File:Lago_di_Braies_on_boat.jpg
 
+Korean Bibimbap with dumpling
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/447990/bibimbap-bowl
+
 Lady Bird Johnson Grove in Northern California
 License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://www.rawpixel.com/image/422019/lady-bird-johnson-grove
+
+A girl wearing brown hat walking through forest
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/3282668/free-photo-image-travel-girl-forest
+
+Fushimi inari Trail, Kyōto-shi, Japan
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/3282202/free-photo-image-japan-japanese-architecture
+
+People walk quickly around the Theater District of Times Square in New York City at night
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/3336839/free-photo-image-city-publicity-billboard
+
+A man standing on jagged rocks in a fast-flowing river in the wilderness
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/3282300/free-photo-image-nature-california-river
+
+Cherry blossom image
+License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://www.rawpixel.com/image/5925234/photo-image-background-flower-public-domain
 
 
 == Changelog ==
