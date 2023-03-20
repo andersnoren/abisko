@@ -359,6 +359,46 @@
 				}
 			},
 			"core/file": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "1px"
+				},
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--foreground)",
+								"text": "var(--wp--preset--color--background)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"border": {
+							"color": "var(--wp--preset--color--foreground)",
+							"style": "solid",
+							"width": "1px"
+						},
+						"color": {
+							"background": "var(--wp--preset--color--background)",
+							"text": "var(--wp--preset--color--foreground)"
+						}
+					},
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"spacing": {
+					"padding": "var(--wp--preset--spacing--30)"
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
 					"fontWeight": "700",
@@ -504,12 +544,7 @@
 					}
 				},
 				"spacing": {
-					"padding": {
-						"bottom": "0",
-						"left": "0",
-						"right": "0",
-						"top": "0"
-					}
+					"padding": "0"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--heading-5)",
@@ -634,12 +669,7 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"spacing": {
-					"padding": {
-						"bottom": "1.1em",
-						"left": "1.33em",
-						"right": "1.33em",
-						"top": "1em"
-					}
+					"padding": "1em 1.33em 1.1em 1.33em"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
@@ -740,12 +770,7 @@
 		},
 		"spacing": {
 			"blockGap": "var(--wp--preset--spacing--40)",
-			"padding": {
-				"bottom": "var(--wp--preset--spacing--40)",
-				"left": "var(--wp--preset--spacing--40)",
-				"right": "var(--wp--preset--spacing--40)",
-				"top": "var(--wp--preset--spacing--40)"
-			}
+			"padding": "var(--wp--preset--spacing--40)"
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--default)",

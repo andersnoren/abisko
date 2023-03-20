@@ -159,6 +159,7 @@ p.has-background {
 /* Block Shared: Faux Buttons ---------------- */
 
 .wp-block-comment-reply-link a,
+.wp-block.is-style-abisko-terms-buttons,
 .is-style-abisko-terms-buttons a {
 	border: 1px solid var( --wp--preset--color--foreground );
 	display: block;
@@ -180,7 +181,7 @@ p.has-background {
 
 /* Block: Button ----------------------------- */
 
-.wp-block-button.is-style-outline>.wp-block-button__link, 
+.wp-block-button.is-style-outline > .wp-block-button__link, 
 .wp-block-button .wp-block-button__link.is-style-outline {
 	border-width: 1px;
 	padding: calc( 1em - 1px ) calc( 1.33em - 1px ) calc( 1.1em - 1px );
@@ -215,10 +216,19 @@ p.has-background {
 
 /* Block: File ------------------------------- */
 
-.wp-block-file {
+.wp-block-file,
+.wp-block-file__content-wrapper {
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+}
+
+.wp-block-file:not(.wp-element-button) {
+	font-size: inherit;
+}
+
+.wp-block-file__button {
+	opacity: 1 !important;
 }
 
 /* Block: Heading ---------------------------- */
