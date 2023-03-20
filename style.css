@@ -23,7 +23,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-a, input { text-underline-offset: 0.2em; }
+a, input { 
+	text-underline-offset: 0.2em; 
+	transition: all .2s;
+}
 
 /* Input styles */
 
@@ -151,6 +154,22 @@ p.has-background {
 /* ------------------------------------------- */
 /* Blocks
 /* ------------------------------------------- */
+
+/* Block Shared: Faux Buttons ---------------- */
+
+.wp-block-comment-reply-link a,
+.is-style-abisko-terms-buttons a {
+	border: 1px solid var( --wp--preset--color--foreground );
+	display: block;
+	padding: .5em 1em .55em;
+	text-decoration: none;
+}
+
+.wp-block-comment-reply-link a:hover,
+.is-style-abisko-terms-buttons a:hover {
+	background-color: var( --wp--preset--color--foreground );
+	color: var( --wp--preset--color--background );
+}
 
 /* Block: Avatar ----------------------------- */
 
@@ -354,17 +373,6 @@ ol.wp-block-comment-template {
 	display: none;
 }
 
-.is-style-abisko-terms-buttons a {
-	border: 1px solid;
-	padding: .5em 1em .55em;
-	text-decoration: none;
-}
-
-.is-style-abisko-terms-buttons a:hover,
-.is-style-abisko-terms-buttons a:focus {
-	text-decoration: underline;
-}
-
 /* Block: Pull Quote ------------------------- */
 
 .wp-block-pullquote:not([class*="has-text-align-"]) {
@@ -429,13 +437,7 @@ ol.wp-block-comment-template {
 
 /* Hover Styles */
 
-[class*="wp-block-"][class*="-pagination"] a {
-	transition: color .2s;
-}
-
-[class*="wp-block-"][class*="-pagination"] a:hover,
-[class*="wp-block-"][class*="-pagination"] a:focus,
-.wp-block-query-pagination .page-numbers.current {
+.page-numbers.current {
 	color: var(--wp--preset--color--primary);
 }
 
