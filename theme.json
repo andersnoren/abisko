@@ -353,6 +353,11 @@
 					"blockGap": "max(16px, .45em)"
 				}
 			},
+			"core/cover": {
+				"color": {
+					"text": "#ffffff"
+				}
+			},
 			"core/file": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",

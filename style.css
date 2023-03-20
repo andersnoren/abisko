@@ -101,6 +101,10 @@ p.has-background {
 /*	Helper Classes
 /* ------------------------------------------- */
 
+.hide-empty:empty {
+	display: none !important;
+}
+
 @media ( min-width: 782px ) {
 	.hide-desktop {
 		display: none !important;
