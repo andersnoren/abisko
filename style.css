@@ -115,11 +115,8 @@ p.has-background {
 	margin-top: 0;
 }
 
-@media ( max-width: 500px ) {
-	.theme-credit {
-		display: none;
-	}
-}
+.theme-credit a { text-decoration: none; }
+.theme-credit a:hover { text-decoration: underline; }
 
 /* ------------------------------------------- */
 /*	Typography
