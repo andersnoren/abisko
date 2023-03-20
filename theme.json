@@ -723,6 +723,11 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "header-large",
+			"title": "Header Large"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
