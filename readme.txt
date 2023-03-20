@@ -2,7 +2,7 @@
 Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.2
-Requires PHP: 5.6
+Requires PHP: 7.4
 Tested up to: 6.2
 Stable tag: trunk
 License: GPLv2 or later
