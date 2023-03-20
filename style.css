@@ -227,6 +227,10 @@ p.has-background {
 	font-size: inherit;
 }
 
+.wp-block-file a:not(.wp-element-button) {
+	padding-left: var( --wp--preset--spacing--10 );
+}
+
 .wp-block-file__button {
 	opacity: 1 !important;
 }
