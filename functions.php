@@ -5,11 +5,8 @@
 --------------------------------------------------------------------------------------------------- */
 
 function abisko_setup() {
-
 	add_theme_support( 'wp-block-styles' );
-
 	add_editor_style( 'style.css' );
-
 }
 add_action( 'after_setup_theme', 'abisko_setup' );
 
@@ -19,9 +16,7 @@ add_action( 'after_setup_theme', 'abisko_setup' );
 --------------------------------------------------------------------------------------------------- */
 
 function abisko_styles() {
-
 	wp_enqueue_style( 'abisko-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'abisko' )->get( 'Version' ) );
-
 }
 add_action( 'wp_enqueue_scripts', 'abisko_styles' );
 
@@ -66,15 +61,11 @@ add_action( 'init', 'abisko_register_block_patterns' );
 --------------------------------------------------------------------------------------------------- */
 
 function abisko_comment_form_defaults( $defaults ) {
-
-	$defaults = array_merge( $defaults, array(
+	return array_merge( $defaults, array(
 		'title_reply_before' 	=> '<h2 id="reply-title" class="comment-reply-title">',
 		'title_reply_after' 	=> '</h2>',
 		'title_reply' 			=> __( 'Reply', 'abisko' )
 	) );
-
-	return $defaults;
-
 }
 add_filter( 'comment_form_defaults', 'abisko_comment_form_defaults' );
 
