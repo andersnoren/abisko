@@ -188,6 +188,12 @@ p.has-background {
 
 /* Block: Columns ---------------------------- */
 
+@media ( max-width: 781px ) {
+	.wp-block-columns:not(.is-not-stacked-on-mobile) .wp-block-column:empty {
+		display: none;
+	}
+}
+
 /* STYLE: MINUS 90 DEGREE CONTENTS WHILE NOT STACKED */
 
 @media ( min-width: 782px ) {
@@ -285,6 +291,17 @@ ol.wp-block-comment-template {
 	text-transform: none;
 }
 
+.wp-block-post-comments-form .comment-form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var( --wp--preset--spacing--40 );
+}
+
+.wp-block-post-comments-form .comment-form > p {
+	margin: 0;
+	width: 100%;
+}
+
 :root .comment-form-comment label,
 :root .comment-form-author label, 
 :root .comment-form-email label,
@@ -309,17 +326,6 @@ ol.wp-block-comment-template {
 }
 
 @media ( min-width: 782px ) {
-
-	.wp-block-post-comments-form .comment-form {
-		display: flex;
-		flex-wrap: wrap;
-		gap: var( --wp--preset--spacing--40 );
-	}
-
-	.wp-block-post-comments-form .comment-form > p {
-		margin: 0;
-		width: 100%;
-	}
 
 	.wp-block-post-comments-form .comment-form > .comment-form-author,
 	.wp-block-post-comments-form .comment-form > .comment-form-email {
