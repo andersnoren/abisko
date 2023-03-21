@@ -30,14 +30,26 @@ function abisko_register_block_patterns() {
 
 	// The block pattern categories included in Abisko.
 	$abisko_block_pattern_categories = apply_filters( 'abisko_block_pattern_categories', array(
+		'abisko'  => array(
+			'label'			=> esc_html__( 'Abisko - All', 'abisko' ),
+		),
 		'abisko-blog'  => array(
-			'label'			=> esc_html__( 'Abisko Blog', 'abisko' ),
+			'label'			=> esc_html__( 'Abisko - Blog', 'abisko' ),
 		),
 		'abisko-cta'  => array(
-			'label'			=> esc_html__( 'Abisko Call to Action', 'abisko' ),
+			'label'			=> esc_html__( 'Abisko - Call to Action', 'abisko' ),
 		),
 		'abisko-general' => array(
-			'label'			=> esc_html__( 'Abisko General', 'abisko' ),
+			'label'			=> esc_html__( 'Abisko - General', 'abisko' ),
+		),
+		'abisko-hero' => array(
+			'label'			=> esc_html__( 'Abisko - Hero', 'abisko' ),
+		),
+		'abisko-media' => array(
+			'label'			=> esc_html__( 'Abisko - Media', 'abisko' ),
+		),
+		'abisko-page' => array(
+			'label'			=> esc_html__( 'Abisko - Page Layouts', 'abisko' ),
 		),
 	) );
 
