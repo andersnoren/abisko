@@ -1,17 +1,16 @@
 <?php
 /**
- * Title: Hero with background color, titles and an image
- * Slug: abisko/hero-bg-titles-image
- * Categories: abisko, abisko-hero
+ * Title: Call to action with titles, text, button, and an image to the right
+ * Slug: abisko/cta-titles-with-image-right
+ * Categories: abisko, abisko-cta
  */
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"gradient":"bg-color-bottom","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide has-bg-color-bottom-gradient-background has-background"
-	style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|40"}}}} -->
+<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignwide">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|40","padding":{"bottom":"var:preset|spacing|80"}}}} -->
-		<div class="wp-block-column is-vertically-aligned-center" style="padding-bottom:var(--wp--preset--spacing--80)">
+		<!-- wp:column {"verticalAlignment":"center","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"className":"is-style-default"} -->
+		<div class="wp-block-column is-vertically-aligned-center is-style-default">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 			<div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
 				<p class="has-large-font-size"><strong>The Time is Now</strong></p>
@@ -41,8 +40,8 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"verticalAlignment":"bottom","width":"33%"} -->
-		<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:33%">
+		<!-- wp:column {"verticalAlignment":"center","width":"33%"} -->
+		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33%">
 			<!-- wp:image {"id":26315,"sizeSlug":"large","linkDestination":"none"} -->
 			<figure class="wp-block-image size-large"><img
 					src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-edited.jpg" alt=""
