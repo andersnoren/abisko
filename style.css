@@ -235,32 +235,6 @@ p.has-background {
 	opacity: 1 !important;
 }
 
-/* Block: Heading ---------------------------- */
-
-.entry-content h1:not([style*="margin-top:"]):not(:first-child),
-.entry-content h2:not([style*="margin-top:"]):not(:first-child),
-.entry-content h3:not([style*="margin-top:"]):not(:first-child),
-.entry-content h4:not([style*="margin-top:"]):not(:first-child),
-.entry-content h5:not([style*="margin-top:"]):not(:first-child),
-.entry-content h6:not([style*="margin-top:"]):not(:first-child) {
-	margin-block-start: min( 1em, var( --wp--preset--spacing--70 ) );
-}
-
-.entry-content h1:not([style*="margin-bottom:"]):not(:last-child),
-.entry-content h2:not([style*="margin-bottom:"]):not(:last-child),
-.entry-content h3:not([style*="margin-bottom:"]):not(:last-child),
-.entry-content h4:not([style*="margin-bottom:"]):not(:last-child),
-.entry-content h5:not([style*="margin-bottom:"]):not(:last-child),
-.entry-content h6:not([style*="margin-bottom:"]):not(:last-child) {
-	margin-block-end: min( .75em, var( --wp--preset--spacing--60 ) );
-}
-
-/* Block: Latest Comments -------------------- */
-
-.wp-block-latest-comments__comment {
-	line-height: inherit;
-}
-
 /* Block: Navigation ------------------------- */
 
 .wp-block-navigation__responsive-container-close svg { transform: scale( 1.25 ); }

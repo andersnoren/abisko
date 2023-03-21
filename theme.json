@@ -482,7 +482,7 @@
 			},
 			"core/post-content": {
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--50)"
+					"blockGap": "min( var(--wp--preset--spacing--70), calc( 1em * var(--wp--custom--typography--line-height--body) ) )"
 				}
 			},
 			"core/post-date": {
