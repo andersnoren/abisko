@@ -36,20 +36,16 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-				class="wp-image-26311" /></figure>
+		<!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-4x3.png" alt=""/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:column -->
 
 	<!-- wp:column {"style":{"spacing":{"padding":{"bottom":"10vw"}}}} -->
 	<div class="wp-block-column" style="padding-bottom:10vw">
-		<!-- wp:image {"id":26315,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-edited-768x1024.jpg" alt=""
-				class="wp-image-26315" /></figure>
+		<!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-3x4.png" alt=""/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:column -->

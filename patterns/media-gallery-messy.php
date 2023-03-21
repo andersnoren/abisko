@@ -13,12 +13,9 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" />
-					<figcaption class="wp-element-caption">This is an image.</figcaption>
-				</figure>
+			<div class="wp-block-column">
+				<!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-4x3.png" alt=""/><figcaption class="wp-element-caption">This is an image.</figcaption></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:column -->
@@ -35,12 +32,9 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" />
-					<figcaption class="wp-element-caption">An image, this is.</figcaption>
-				</figure>
+			<div class="wp-block-column">
+				<!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/><figcaption class="wp-element-caption">An image, this is.</figcaption></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:column -->
@@ -57,13 +51,12 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:image {"id":26315,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-edited-768x1024.jpg"
-						alt="" class="wp-image-26315" />
-					<figcaption class="wp-element-caption">Here, we have another image.</figcaption>
-				</figure>
+			<div class="wp-block-column">
+
+				<!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-3x4.png" alt=""/><figcaption class="wp-element-caption">Here, we have another image.</figcaption></figure>
 				<!-- /wp:image -->
+				
 			</div>
 			<!-- /wp:column -->
 

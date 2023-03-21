@@ -24,10 +24,10 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"400px"}} -->
 					<div class="wp-block-group">
-						<!-- wp:image {"id":26377,"width":48,"sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img
-								src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-cube.png" alt=""
-								class="wp-image-26377" width="48" /></figure>
+						<!-- wp:image {"width":48,"linkDestination":"none"} -->
+						<figure class="wp-block-image is-resized"><img
+								src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/cube.png" alt=""
+								width="48" /></figure>
 						<!-- /wp:image -->
 
 						<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -47,10 +47,10 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"400px"}} -->
 					<div class="wp-block-group">
-						<!-- wp:image {"id":26377,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img
-								src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-cube.png" alt=""
-								class="wp-image-26377" width="48" height="48" /></figure>
+						<!-- wp:image {"width":48,"linkDestination":"none"} -->
+						<figure class="wp-block-image is-resized"><img
+								src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/cube.png" alt=""
+								width="48" /></figure>
 						<!-- /wp:image -->
 
 						<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -73,10 +73,10 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"400px"}} -->
 					<div class="wp-block-group">
-						<!-- wp:image {"id":26377,"width":48,"sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img
-								src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-cube.png" alt=""
-								class="wp-image-26377" width="48" /></figure>
+						<!-- wp:image {"width":48,"linkDestination":"none"} -->
+						<figure class="wp-block-image is-resized"><img
+								src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/cube.png" alt=""
+								width="48" /></figure>
 						<!-- /wp:image -->
 
 						<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -96,10 +96,10 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"400px"}} -->
 					<div class="wp-block-group">
-						<!-- wp:image {"id":26377,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img
-								src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-cube.png" alt=""
-								class="wp-image-26377" width="48" height="48" /></figure>
+						<!-- wp:image {"width":48,"linkDestination":"none"} -->
+						<figure class="wp-block-image is-resized"><img
+								src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/cube.png" alt=""
+								width="48" /></figure>
 						<!-- /wp:image -->
 
 						<!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -122,10 +122,10 @@
 				<div class="wp-block-column">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"400px"}} -->
 					<div class="wp-block-group">
-						<!-- wp:image {"id":26377,"width":48,"sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img
-								src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-cube.png" alt=""
-								class="wp-image-26377" width="48" /></figure>
+						<!-- wp:image {"width":48,"linkDestination":"none"} -->
+						<figure class="wp-block-image is-resized"><img
+								src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/cube.png" alt=""
+								width="48" /></figure>
 						<!-- /wp:image -->
 
 						<!-- wp:heading {"level":3,"fontSize":"large"} -->

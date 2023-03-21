@@ -46,10 +46,8 @@
 	<!-- /wp:column -->
 
 	<!-- wp:column -->
-	<div class="wp-block-column"><!-- wp:image {"id":26315,"sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image size-full"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-edited.jpg" alt=""
-				class="wp-image-26315" /></figure>
+	<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:column -->

@@ -9,10 +9,8 @@
 <div class="wp-block-columns alignwide">
 	<!-- wp:column {"style":{"spacing":{"blockGap":"0"}},"backgroundColor":"foreground","textColor":"background"} -->
 	<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background">
-		<!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-				class="wp-image-26311" /></figure>
+		<!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/gray-4x3.png" alt=""/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
@@ -40,10 +38,8 @@
 
 	<!-- wp:column {"style":{"spacing":{"blockGap":"0"}},"backgroundColor":"foreground","textColor":"background"} -->
 	<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background">
-		<!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-				class="wp-image-26311" /></figure>
+		<!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/gray-4x3.png" alt=""/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
@@ -71,10 +67,8 @@
 
 	<!-- wp:column {"style":{"spacing":{"blockGap":"0"}},"backgroundColor":"foreground","textColor":"background"} -->
 	<div class="wp-block-column has-background-color has-foreground-background-color has-text-color has-background">
-		<!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-				class="wp-image-26311" /></figure>
+		<!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/gray-4x3.png" alt=""/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->

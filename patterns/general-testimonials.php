@@ -38,10 +38,10 @@
 						<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 							<!-- wp:column {"verticalAlignment":"center","width":"48px"} -->
 							<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:48px">
-								<!-- wp:image {"id":26386,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-								<figure class="wp-block-image size-full is-resized"><img
-										src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar.png"
-										alt="" class="wp-image-26386" width="48" height="48" /></figure>
+								<!-- wp:image {"width":48,"linkDestination":"none"} -->
+								<figure class="wp-block-image is-resized"><img
+										src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-black.png" alt=""
+										width="48" /></figure>
 								<!-- /wp:image -->
 							</div>
 							<!-- /wp:column -->
@@ -82,10 +82,10 @@
 						<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 							<!-- wp:column {"verticalAlignment":"center","width":"48px"} -->
 							<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:48px">
-								<!-- wp:image {"id":26386,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-								<figure class="wp-block-image size-full is-resized"><img
-										src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar.png"
-										alt="" class="wp-image-26386" width="48" height="48" /></figure>
+								<!-- wp:image {"width":48,"linkDestination":"none"} -->
+								<figure class="wp-block-image is-resized"><img
+										src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-black.png" alt=""
+										width="48" /></figure>
 								<!-- /wp:image -->
 							</div>
 							<!-- /wp:column -->
@@ -129,10 +129,10 @@
 						<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 							<!-- wp:column {"verticalAlignment":"center","width":"48px"} -->
 							<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:48px">
-								<!-- wp:image {"id":26386,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-								<figure class="wp-block-image size-full is-resized"><img
-										src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar.png"
-										alt="" class="wp-image-26386" width="48" height="48" /></figure>
+								<!-- wp:image {"width":48,"linkDestination":"none"} -->
+								<figure class="wp-block-image is-resized"><img
+										src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-black.png" alt=""
+										width="48" /></figure>
 								<!-- /wp:image -->
 							</div>
 							<!-- /wp:column -->
@@ -173,10 +173,10 @@
 						<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 							<!-- wp:column {"verticalAlignment":"center","width":"48px"} -->
 							<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:48px">
-								<!-- wp:image {"id":26386,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-								<figure class="wp-block-image size-full is-resized"><img
-										src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar.png"
-										alt="" class="wp-image-26386" width="48" height="48" /></figure>
+								<!-- wp:image {"width":48,"linkDestination":"none"} -->
+								<figure class="wp-block-image is-resized"><img
+										src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-black.png" alt=""
+										width="48" /></figure>
 								<!-- /wp:image -->
 							</div>
 							<!-- /wp:column -->
@@ -220,10 +220,10 @@
 						<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 							<!-- wp:column {"verticalAlignment":"center","width":"48px"} -->
 							<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:48px">
-								<!-- wp:image {"id":26386,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-								<figure class="wp-block-image size-full is-resized"><img
-										src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar.png"
-										alt="" class="wp-image-26386" width="48" height="48" /></figure>
+								<!-- wp:image {"width":48,"linkDestination":"none"} -->
+								<figure class="wp-block-image is-resized"><img
+										src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-black.png" alt=""
+										width="48" /></figure>
 								<!-- /wp:image -->
 							</div>
 							<!-- /wp:column -->
@@ -264,10 +264,10 @@
 						<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">
 							<!-- wp:column {"verticalAlignment":"center","width":"48px"} -->
 							<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:48px">
-								<!-- wp:image {"id":26386,"width":48,"height":48,"sizeSlug":"full","linkDestination":"none"} -->
-								<figure class="wp-block-image size-full is-resized"><img
-										src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar.png"
-										alt="" class="wp-image-26386" width="48" height="48" /></figure>
+								<!-- wp:image {"width":48,"linkDestination":"none"} -->
+								<figure class="wp-block-image is-resized"><img
+										src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-black.png" alt=""
+										width="48" /></figure>
 								<!-- /wp:image -->
 							</div>
 							<!-- /wp:column -->

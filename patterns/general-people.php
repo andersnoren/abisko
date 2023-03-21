@@ -19,10 +19,8 @@
 	<div class="wp-block-column">
 		<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" /></figure>
+			<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
@@ -53,10 +51,8 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" /></figure>
+			<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
@@ -87,10 +83,8 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" /></figure>
+			<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
@@ -124,10 +118,8 @@
 
 		<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|40"}}}} -->
 		<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" /></figure>
+			<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
@@ -158,10 +150,8 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" /></figure>
+			<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->
@@ -192,10 +182,8 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
-			<div class="wp-block-column"><!-- wp:image {"id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-				<figure class="wp-block-image size-large"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-						class="wp-image-26311" /></figure>
+			<div class="wp-block-column"><!-- wp:image {"linkDestination":"none"} -->
+				<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-1x1.png" alt=""/></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","justifyContent":"left"}} -->

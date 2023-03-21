@@ -8,10 +8,8 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|80"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
 	<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%">
-		<!-- wp:image {"id":26315,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-edited.jpg" alt=""
-				class="wp-image-26315" /></figure>
+		<!-- wp:image {"linkDestination":"none"} -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-3x4.png" alt=""/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:column -->

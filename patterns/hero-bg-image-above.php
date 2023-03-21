@@ -10,10 +10,8 @@
 	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","right":"var:preset|spacing|40","bottom":"0","left":"var:preset|spacing|40"}}},"textColor":"background","gradient":"foreground-color-bottom","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignfull has-background-color has-foreground-color-bottom-gradient-background has-text-color has-background"
 		style="padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)">
-		<!-- wp:image {"align":"wide","id":26311,"sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image alignwide size-large"><img
-				src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg-1024x768.jpg" alt=""
-				class="wp-image-26311" /></figure>
+		<!-- wp:image {"align":"wide","linkDestination":"none"} -->
+		<figure class="wp-block-image alignwide"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/gray-2x1.png" alt=""/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:group -->
