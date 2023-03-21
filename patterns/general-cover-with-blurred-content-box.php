@@ -5,12 +5,12 @@
  * Categories: abisko, abisko-general
  */
 ?>
-<!-- wp:cover {"url":"http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg.jpg","id":26311,"hasParallax":true,"dimRatio":0,"align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-4x3.png","hasParallax":true,"dimRatio":0,"align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-cover alignfull has-parallax"
 	style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span aria-hidden="true"
 		class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
-	<div role="img" class="wp-block-cover__image-background wp-image-26311 has-parallax"
-		style="background-position:50% 50%;background-image:url(http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg.jpg)">
+	<div role="img" class="wp-block-cover__image-background has-parallax"
+		style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-4x3.png)">
 	</div>
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"top":"0","left":"var:preset|spacing|40"}}}} -->

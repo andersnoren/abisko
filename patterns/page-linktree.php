@@ -5,21 +5,21 @@
  * Categories: abisko, abisko-page
  */
 ?>
-<!-- wp:cover {"url":"http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg.jpg","id":26311,"dimRatio":50,"minHeight":100,"minHeightUnit":"vh","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-4x3.png","dimRatio":50,"minHeight":100,"minHeightUnit":"vh","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-cover alignfull"
 	style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);min-height:100vh">
 	<span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><img
-		class="wp-block-cover__image-background wp-image-26311" alt=""
-		src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg.jpg" data-object-fit="cover" />
+		class="wp-block-cover__image-background" alt=""
+		src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/black-4x3.png" data-object-fit="cover" />
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained","contentSize":"400px"}} -->
 		<div class="wp-block-group">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-				<!-- wp:image {"align":"center","id":26433,"width":96,"height":96,"sizeSlug":"full","linkDestination":"none"} -->
+				<!-- wp:image {"align":"center","width":96,"height":96,"linkDestination":"none"} -->
 				<figure class="wp-block-image aligncenter size-full is-resized"><img
-						src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/icon-avatar-white.png" alt=""
-						class="wp-image-26433" width="96" height="96" /></figure>
+						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-white.png" alt=""
+						width="96" height="96" /></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->

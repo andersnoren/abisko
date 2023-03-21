@@ -5,11 +5,11 @@
  * Categories: abisko, abisko-media
  */
 ?>
-<!-- wp:cover {"url":"http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg.jpg","id":26311,"dimRatio":0,"contentPosition":"center center","align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/gray-4x3.png","dimRatio":0,"contentPosition":"center center","align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <div class="wp-block-cover alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span
 		aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img
-		class="wp-block-cover__image-background wp-image-26311" alt=""
-		src="http://localhost:8888/utsikt/wp-content/uploads/2023/03/abisko-bg.jpg" data-object-fit="cover" />
+		class="wp-block-cover__image-background" alt=""
+		src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholders/gray-4x3.png" data-object-fit="cover" />
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:cover {"minHeight":75,"minHeightUnit":"vh","gradient":"bg-color-top-half-lh","contentPosition":"top center","isDark":false,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"heading-1"} -->
 		<div class="wp-block-cover is-light has-custom-content-position is-position-top-center has-heading-1-font-size"
