@@ -78,8 +78,8 @@
 		"custom": {
 			"typography": {
 				"letter-spacing": {
-					"heading": "-0.02em",
-					"uppercase": "0.02em"
+					"heading": "-.02em",
+					"uppercase": ".02em"
 				},
 				"line-height": {
 					"body": 1.5,

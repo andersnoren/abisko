@@ -4,7 +4,7 @@
     Text Domain: abisko
 	Version: 0.1
 	Description: Abisko is a XXX. Demo: https://andersnoren.se/themes/abisko/
-	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing
+	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, block-patterns
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
 	Theme URI: https://andersnoren.se/teman/abisko-wordpress-theme/
@@ -24,7 +24,7 @@ body {
 }
 
 a, input { 
-	text-underline-offset: 0.2em; 
+	text-underline-offset: .2em; 
 	transition: all .2s;
 }
 
@@ -40,7 +40,7 @@ input, textarea, select, button {
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: 500;
-	letter-spacing: -0.01em;
+	letter-spacing: -.01em;
 	margin: 0;
 }
 
