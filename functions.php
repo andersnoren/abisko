@@ -78,6 +78,18 @@ add_filter( 'comment_form_defaults', 'abisko_comment_form_defaults' );
 if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 	function abisko_register_block_styles() {
 
+		// Column: -90° Contents On Desktop
+		register_block_style( 'core/column', array(
+			'name'  	=> 'abisko-minus-90-deg-column-content-desktop',
+			'label' 	=> esc_html__( '-90° Contents On Desktop', 'abisko' ),
+		) );
+
+		// Cover: Background Blur
+		register_block_style( 'core/cover', array(
+			'name'  	=> 'abisko-bg-blur',
+			'label' 	=> esc_html__( 'Overlay Blur', 'abisko' ),
+		) );
+
 		// Featured Image: Ratio: 1/1
 		register_block_style( 'core/post-featured-image', array(
 			'name'  	=> 'abisko-ar-1x1',
@@ -90,22 +102,24 @@ if ( ! function_exists( 'abisko_register_block_styles' ) ) :
 			'label' 	=> esc_html__( 'Ratio: 4/3', 'abisko' ),
 		) );
 
-		// Term: Buttons
-		register_block_style( 'core/post-terms', array(
-			'name'  	=> 'abisko-terms-buttons',
-			'label' 	=> esc_html__( 'Buttons', 'abisko' ),
-		) );
-
-		// Column: -90° Contents On Desktop
-		register_block_style( 'core/column', array(
-			'name'  	=> 'abisko-minus-90-deg-column-content-desktop',
-			'label' 	=> esc_html__( '-90° Contents On Desktop', 'abisko' ),
-		) );
+		// Heading, Paragraph: Tabular Numerals
+		foreach( array( 'core/heading', 'core/paragraph' ) as $block_name ) {
+			register_block_style( $block_name, array(
+				'name'  	=> 'abisko-tabular-nums',
+				'label' 	=> esc_html__( 'Tabular Numerals', 'abisko' ),
+			) );
+		}
 
 		// Post Comments Form: Rotated Title to the Right on Desktop
 		register_block_style( 'core/post-comments-form', array(
 			'name'  	=> 'abisko-rotated-title',
 			'label' 	=> esc_html__( 'Rotated Title to the Right on Desktop', 'abisko' ),
+		) );
+
+		// Term: Buttons
+		register_block_style( 'core/post-terms', array(
+			'name'  	=> 'abisko-terms-buttons',
+			'label' 	=> esc_html__( 'Buttons', 'abisko' ),
 		) );
 
 	}

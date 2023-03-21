@@ -28,6 +28,10 @@ a, input {
 	transition: all .2s;
 }
 
+strong, b {
+	font-weight: 700;
+}
+
 /* Input styles */
 
 input, textarea, select, button {
@@ -78,7 +82,7 @@ figure {
 /* Editor Post Title */
 
 .editor-post-title__input { 
-	max-width: 100% !important;
+	max-width: min( ( 100% - var(--wp--style--root--padding-right) - var(--wp--style--root--padding-left) ), var( --wp--style--global--wide-size ) ) !important;
 }
 
 /* Background Padding */
@@ -190,7 +194,7 @@ p.has-background {
 /* Block: Columns ---------------------------- */
 
 @media ( max-width: 781px ) {
-	.wp-block-columns:not(.is-not-stacked-on-mobile) .wp-block-column:empty {
+	.wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:empty {
 		display: none;
 	}
 }
@@ -209,9 +213,17 @@ p.has-background {
 			left: 50%;
 		transform-origin: top left;
 		transform: rotate( 90deg ) translate( 0%, -50% );
-		white-space: nowrap;
+		white-space: nowrap !important;
 	}
 
+}
+
+/* Block: Cover ------------------------------ */
+
+.wp-block-cover.is-style-abisko-bg-blur > .wp-block-cover__background {
+	-webkit-backdrop-filter: blur( 25px );
+	backdrop-filter: blur( 25px );
+	background-color: rgba( 255, 255, 255, .01 ) !important;
 }
 
 /* Block: File ------------------------------- */
@@ -233,6 +245,12 @@ p.has-background {
 
 .wp-block-file__button {
 	opacity: 1 !important;
+}
+
+/* Block: Heading ---------------------------- */
+
+.is-style-abisko-tabular-nums {
+	font-variant-numeric: tabular-nums;
 }
 
 /* Block: Navigation ------------------------- */
@@ -385,9 +403,10 @@ ol.wp-block-comment-template {
 .wp-block-pullquote blockquote:before {
 	content: "“";
 	display: block;
-	font-size: 2.625em;
+	font-size: 80px;
+	font-weight: 800;
 	line-height: 1;
-	margin: -.15em 0 -.3em;
+	margin: -10px 0 -24px -5px;
 }
 
 .wp-block-pullquote blockquote p {
@@ -524,6 +543,12 @@ ol.wp-block-comment-template {
 
 .wp-block-search__button { 
 	margin: 0 0 0 .75em;
+}
+
+/* Block: Social ----------------------------- */
+
+.wp-block-social-links .wp-social-link a {
+	padding: .41em;
 }
 
 /* Block: Quote ------------------------------ */

@@ -27,6 +27,10 @@ Plus Jakarta Sans font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://fonts.google.com/specimen/Figtree/
 
+Icons in /assets/images/ from Phosphor Icons
+License: MIT, https://opensource.org/license/mit/
+Source: https://phosphoricons.com
+
 === Images in screenshot.jpg ===
 
 In order:
