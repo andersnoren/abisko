@@ -1,6 +1,6 @@
 # Abisko
 
-Abisko is a...
+Abisko is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with X different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts.
 
 ![Abisko](https://github.com/andersnoren/abisko/blob/main/screenshot.jpg)
 

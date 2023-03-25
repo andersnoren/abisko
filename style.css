@@ -2,9 +2,9 @@
 
 	Theme Name: Abisko
     Text Domain: abisko
-	Version: 0.1
-	Description: Abisko is a XXX. Demo: https://andersnoren.se/themes/abisko/
-	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, block-patterns
+	Version: 1.0
+	Description: Abisko is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with X different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/abisko/
+	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, block-patterns, style-variations
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
 	Theme URI: https://andersnoren.se/teman/abisko-wordpress-theme/
@@ -87,13 +87,7 @@ figure {
 
 /* Background Padding */
 
-h1.has-background, 
-h2.has-background, 
-h3.has-background, 
-h4.has-background, 
-h5.has-background, 
-h6.has-background,
-p.has-background {
+h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.has-background, h6.has-background,p.has-background {
 	padding: 1em;
 }
 

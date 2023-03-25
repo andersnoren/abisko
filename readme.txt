@@ -33,8 +33,6 @@ Source: https://phosphoricons.com
 
 === Images in screenshot.jpg ===
 
-In order:
-
 Mountain photo in boat
 License: CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://commons.wikimedia.org/wiki/File:Lago_di_Braies_on_boat.jpg
@@ -70,5 +68,5 @@ Source: https://www.rawpixel.com/image/5925234/photo-image-background-flower-pub
 
 == Changelog ==
 
-Version 0.1 (2023-XX-XX)
+Version 1.0 (2023-XX-XX)
 -------------------------
