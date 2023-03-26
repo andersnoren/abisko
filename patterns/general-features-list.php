@@ -35,8 +35,7 @@
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -58,8 +57,7 @@
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
-						<p>Gatewood is built for Full Site Editing. You can easily modify your header, footer, and all
-							other parts of the theme in the Site Editor.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -84,8 +82,7 @@
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -107,8 +104,7 @@
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
-						<p>Gatewood is built for Full Site Editing. You can easily modify your header, footer, and all
-							other parts of the theme in the Site Editor.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -133,8 +129,7 @@
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->

@@ -17,44 +17,44 @@
 		"color": {
 			"gradients": [
 				{
+					"gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
 					"name": "Black Fade ↑",
-					"slug": "foreground-fade-to-top",
-					"gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)"
+					"slug": "foreground-fade-to-top"
 				},
 				{
+					"gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 100%)",
 					"name": "Black Fade ↓",
-					"slug": "foreground-fade-to-bottom",
-					"gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 100%)"
+					"slug": "foreground-fade-to-bottom"
 				},
 				{
+					"gradient": "linear-gradient(180deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) 100%)",
 					"name": "Foreground Cutoff Size 80 ↓",
-					"slug": "foreground-color-bottom",
-					"gradient": "linear-gradient(180deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) 100%)"
+					"slug": "foreground-color-bottom"
 				},
 				{
+					"gradient": "linear-gradient(0deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) 100%)",
 					"name": "Foreground Cutoff Size 80 ↑",
-					"slug": "foreground-color-top",
-					"gradient": "linear-gradient(0deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--foreground) 100%)"
+					"slug": "foreground-color-top"
 				},
 				{
+					"gradient": "linear-gradient(180deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) 100%)",
 					"name": "Background Cutoff Size 80 ↓",
-					"slug": "bg-color-bottom",
-					"gradient": "linear-gradient(180deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) 100%)"
+					"slug": "bg-color-bottom"
 				},
 				{
+					"gradient": "linear-gradient(0deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) 100%)",
 					"name": "Background Cutoff Size 80 ↑",
-					"slug": "bg-color-top",
-					"gradient": "linear-gradient(0deg, transparent 0%, transparent calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) calc( 100% - var(--wp--preset--spacing--80) ), var(--wp--preset--color--background) 100%)"
+					"slug": "bg-color-top"
 				},
 				{
+					"gradient": "linear-gradient(180deg, transparent 0%, transparent calc( 100% - .475em ), var(--wp--preset--color--background) calc( 100% - .475em ), var(--wp--preset--color--background) 100%)",
 					"name": "Background Cutoff 50% of Line Height ↓",
-					"slug": "bg-color-bottom-half-lh",
-					"gradient": "linear-gradient(180deg, transparent 0%, transparent calc( 100% - .475em ), var(--wp--preset--color--background) calc( 100% - .475em ), var(--wp--preset--color--background) 100%)"
+					"slug": "bg-color-bottom-half-lh"
 				},
 				{
+					"gradient": "linear-gradient(0deg, transparent 0%, transparent calc( 100% - .525em ), var(--wp--preset--color--background) calc( 100% - .525em ), var(--wp--preset--color--background) 100%)",
 					"name": "Background Cutoff 50% of Line Height ↑",
-					"slug": "bg-color-top-half-lh",
-					"gradient": "linear-gradient(0deg, transparent 0%, transparent calc( 100% - .525em ), var(--wp--preset--color--background) calc( 100% - .525em ), var(--wp--preset--color--background) 100%)"
+					"slug": "bg-color-top-half-lh"
 				}
 			],
 			"palette": [

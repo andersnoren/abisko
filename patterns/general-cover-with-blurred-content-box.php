@@ -31,9 +31,9 @@
 
 			<!-- wp:column -->
 			<div class="wp-block-column">
-				<!-- wp:cover {"overlayColor":"background","minHeight":75,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"className":"is-style-abisko-bg-blur","style":{"spacing":{"padding":{"top":"var:preset|spacing|90","right":"var:preset|spacing|40","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40"}}}} -->
+				<!-- wp:cover {"overlayColor":"background","minHeight":75,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"className":"is-style-abisko-bg-blur","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|40","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40"}}}} -->
 				<div class="wp-block-cover is-light is-style-abisko-bg-blur"
-					style="padding-top:var(--wp--preset--spacing--90);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40);min-height:75vh">
+					style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40);min-height:75vh">
 					<span aria-hidden="true"
 						class="wp-block-cover__background has-background-background-color has-background-dim-100 has-background-dim"></span>
 					<div class="wp-block-cover__inner-container">
