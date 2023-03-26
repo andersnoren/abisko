@@ -1,0 +1,32 @@
+{
+    "title": "Rose Hip",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#20171A",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#FAC66F",
+					"name": "Background"
+				},
+				{
+					"color": "#614C34",
+					"name": "Primary",
+					"slug": "primary"
+				}
+			]
+		}
+    },
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-serif)",
+			"fontWeight": "400"
+		}
+	}
+}

@@ -3,7 +3,7 @@
 	Theme Name: Abisko
     Text Domain: abisko
 	Version: 1.0
-	Description: Abisko is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with X different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/abisko/
+	Description: Abisko is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with 5 different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/abisko/
 	Tags: blog, portfolio, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, block-patterns, style-variations
 	Author: Anders Norén
 	Author URI: https://andersnoren.se
@@ -17,6 +17,7 @@
 	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 /* --------------------------------------------------------------------------------------------- */
+
 
 body {
 	-moz-osx-font-smoothing: grayscale;
@@ -95,9 +96,11 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	padding: 2em;
 }
 
-/* ------------------------------------------- */
+
+/* --------------------------------- */
 /*	Helper Classes
-/* ------------------------------------------- */
+/* --------------------------------- */
+
 
 .hide-empty:empty {
 	display: none !important;
@@ -109,9 +112,11 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	}
 }
 
-/* ------------------------------------------- */
+
+/* --------------------------------- */
 /* Template Parts
-/* ------------------------------------------- */
+/* --------------------------------- */
+
 
 .site-footer.wp-block-template-part {
 	margin-top: 0;
@@ -120,9 +125,11 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 .theme-credit a { text-decoration: none; }
 .theme-credit a:hover { text-decoration: underline; }
 
-/* ------------------------------------------- */
+
+/* --------------------------------- */
 /*	Typography
-/* ------------------------------------------- */
+/* --------------------------------- */
+
 
 .has-huge-font-size,
 .has-heading-1-font-size,
@@ -150,11 +157,13 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	line-height: var( --wp--custom--typography--line-height--body );
 }
 
-/* ------------------------------------------- */
-/* Blocks
-/* ------------------------------------------- */
 
-/* Block Shared: Faux Buttons ---------------- */
+/* --------------------------------- */
+/* Blocks
+/* --------------------------------- */
+
+
+/* Block Shared: Faux Buttons ------ */
 
 .wp-block-comment-reply-link a,
 .wp-block.is-style-abisko-terms-buttons,
@@ -171,13 +180,13 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	color: var( --wp--preset--color--background );
 }
 
-/* Block: Avatar ----------------------------- */
+/* Block: Avatar ------------------- */
 
 .wp-block-avatar img {
 	display: block;
 }
 
-/* Block: Button ----------------------------- */
+/* Block: Button ------------------- */
 
 .wp-block-button.is-style-outline > .wp-block-button__link, 
 .wp-block-button .wp-block-button__link.is-style-outline {
@@ -185,7 +194,26 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	padding: calc( 1em - 1px ) calc( 1.33em - 1px ) calc( 1.1em - 1px );
 }
 
-/* Block: Columns ---------------------------- */
+/* Block: Calendar ----------------- */
+
+.wp-block-calendar th {
+	font-weight: 700;
+}
+
+:where(.wp-block-calendar table:not(.has-background) th) {
+	background: var( --wp--preset--color--foreground );
+}
+
+.wp-block-calendar table:where(:not(.has-text-color)) th {
+	color: var( --wp--preset--color--background );
+}
+
+.wp-block-calendar table:where(:not(.has-text-color)) td, 
+.wp-block-calendar table:where(:not(.has-text-color)) th {
+	border-color: var( --wp--preset--color--foreground );
+}
+
+/* Block: Columns ------------------ */
 
 @media ( max-width: 781px ) {
 	.wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:empty {
@@ -212,7 +240,7 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 
 }
 
-/* Block: Cover ------------------------------ */
+/* Block: Cover -------------------- */
 
 .wp-block-cover.is-style-abisko-bg-blur > .wp-block-cover__background {
 	-webkit-backdrop-filter: blur( 25px );
@@ -220,7 +248,7 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	background-color: rgba( 255, 255, 255, .01 ) !important;
 }
 
-/* Block: File ------------------------------- */
+/* Block: File --------------------- */
 
 .wp-block-file,
 .wp-block-file__content-wrapper {
@@ -241,18 +269,18 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	opacity: 1 !important;
 }
 
-/* Block: Heading ---------------------------- */
+/* Block: Heading ------------------ */
 
 .is-style-abisko-tabular-nums {
 	font-variant-numeric: tabular-nums;
 }
 
-/* Block: Navigation ------------------------- */
+/* Block: Navigation --------------- */
 
 .wp-block-navigation__responsive-container-close svg { transform: scale( 1.25 ); }
 .wp-block-navigation__responsive-container-open svg { transform: scale( 1.5, 1.25 ); }
 
-/* Block: Paragraph -------------------------- */
+/* Block: Paragraph ---------------- */
 
 .has-drop-cap:not(:focus):first-letter {
 	border: 1px solid currentColor;
@@ -264,7 +292,7 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 	text-align: center;
 }
 
-/* Block: Post Comments Form ----------------- */
+/* Block: Post Comments Form ------- */
 
 ol.wp-block-comment-template {
 	margin: 0;
@@ -312,7 +340,7 @@ ol.wp-block-comment-template {
 
 .wp-block-post-comments-form input:not([type=submit]), 
 .wp-block-post-comments-form textarea {
-	border-color: currentColor;
+	border-color: var( --wp--preset--color--foreground );
 }
 
 :root .comment-form-cookies-consent {
@@ -352,7 +380,7 @@ ol.wp-block-comment-template {
 
 }
 
-/* Block: Post Featured Image ---------------- */
+/* Block: Post Featured Image ------ */
 
 [class*="is-style-abisko-ar-"],
 [class*="is-style-abisko-ar-"] img {
@@ -366,7 +394,7 @@ ol.wp-block-comment-template {
 [class*="ar-4x3"].wp-block-post-featured-image,
 [class*="ar-4x3"].wp-block-post-featured-image img { aspect-ratio: 4/3; }
 
-/* Block: Post Terms ------------------------- */
+/* Block: Post Terms --------------- */
 
 /* STYLE: BUTTONS */
 
@@ -380,7 +408,7 @@ ol.wp-block-comment-template {
 	display: none;
 }
 
-/* Block: Pull Quote ------------------------- */
+/* Block: Pull Quote --------------- */
 
 .wp-block-pullquote:not([class*="has-text-align-"]) {
 	text-align: left;
@@ -407,7 +435,7 @@ ol.wp-block-comment-template {
 	line-height: inherit;
 }
 
-/* Block: Query Pagination ------------------- */
+/* Block: Query Pagination --------- */
 
 /* STYLE: ARROW LINKS */
 
@@ -514,7 +542,7 @@ ol.wp-block-comment-template {
 	margin-top: calc( -.5 * var( --stem ) );
 }
 
-/* Block: Search Form ------------------------ */
+/* Block: Search Form -------------- */
 
 .wp-block-search {
 	font-size: var( --wp--preset--font-size--small );
@@ -539,13 +567,7 @@ ol.wp-block-comment-template {
 	margin: 0 0 0 .75em;
 }
 
-/* Block: Social ----------------------------- */
-
-.wp-block-social-links .wp-social-link a {
-	padding: .41em;
-}
-
-/* Block: Quote ------------------------------ */
+/* Block: Quote -------------------- */
 
 [class*="wp-block"][class*="quote"] p:first-of-type { margin-top: 0; }
 [class*="wp-block"][class*="quote"] p:last-of-type { margin-bottom: 0; }
@@ -558,7 +580,24 @@ ol.wp-block-comment-template {
 	font-size: var( --wp--preset--font-size--medium );
 }
 
-/* Block: Term Description ------------------- */
+/* Block: Social ------------------- */
+
+.wp-block-social-links .wp-social-link a {
+	padding: .41em;
+}
+
+/* Block: Table -------------------- */
+
+.wp-block-table.is-style-stripes {
+	border-bottom-color: currentColor;
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+	background-color: var( --wp--preset--color--foreground );
+	color: var( --wp--preset--color--background );
+}
+
+/* Block: Term Description --------- */
 
 .wp-block-term-description > *:first-child { margin-top: 0; }
 .wp-block-term-description > *:last-child { margin-bottom: 0; }

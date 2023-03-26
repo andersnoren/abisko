@@ -1,0 +1,26 @@
+{
+    "title": "Stoll",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+			"palette": [
+				{
+					"slug": "foreground",
+					"color": "#212125",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#F6BE0C",
+					"name": "Background"
+				},
+				{
+					"color": "#FFF",
+					"name": "Primary",
+					"slug": "primary"
+				}
+			]
+		}
+    }
+}
