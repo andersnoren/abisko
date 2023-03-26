@@ -102,7 +102,7 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 /* --------------------------------- */
 
 
-.hide-empty:empty {
+.hide-empty:not(:has(*)) {
 	display: none !important;
 }
 
