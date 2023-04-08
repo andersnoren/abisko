@@ -49,11 +49,11 @@
 							<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 							<div class="wp-block-column is-vertically-aligned-center">
 								<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-								<p style="font-style:normal;font-weight:700">Anders Norén</p>
+								<p style="font-style:normal;font-weight:700">Name</p>
 								<!-- /wp:paragraph -->
 
 								<!-- wp:paragraph -->
-								<p>Designer</p>
+								<p>Title</p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:column -->
@@ -93,11 +93,11 @@
 							<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 							<div class="wp-block-column is-vertically-aligned-center">
 								<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-								<p style="font-style:normal;font-weight:700">Anders Norén</p>
+								<p style="font-style:normal;font-weight:700">Name</p>
 								<!-- /wp:paragraph -->
 
 								<!-- wp:paragraph -->
-								<p>Designer</p>
+								<p>Title</p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:column -->
@@ -140,11 +140,11 @@
 							<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 							<div class="wp-block-column is-vertically-aligned-center">
 								<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-								<p style="font-style:normal;font-weight:700">Anders Norén</p>
+								<p style="font-style:normal;font-weight:700">Name</p>
 								<!-- /wp:paragraph -->
 
 								<!-- wp:paragraph -->
-								<p>Designer</p>
+								<p>Title</p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:column -->
@@ -184,11 +184,11 @@
 							<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 							<div class="wp-block-column is-vertically-aligned-center">
 								<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-								<p style="font-style:normal;font-weight:700">Anders Norén</p>
+								<p style="font-style:normal;font-weight:700">Name</p>
 								<!-- /wp:paragraph -->
 
 								<!-- wp:paragraph -->
-								<p>Designer</p>
+								<p>Title</p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:column -->
@@ -231,11 +231,11 @@
 							<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 							<div class="wp-block-column is-vertically-aligned-center">
 								<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-								<p style="font-style:normal;font-weight:700">Anders Norén</p>
+								<p style="font-style:normal;font-weight:700">Name</p>
 								<!-- /wp:paragraph -->
 
 								<!-- wp:paragraph -->
-								<p>Designer</p>
+								<p>Title</p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:column -->
@@ -275,11 +275,11 @@
 							<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 							<div class="wp-block-column is-vertically-aligned-center">
 								<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-								<p style="font-style:normal;font-weight:700">Anders Norén</p>
+								<p style="font-style:normal;font-weight:700">Name</p>
 								<!-- /wp:paragraph -->
 
 								<!-- wp:paragraph -->
-								<p>Designer</p>
+								<p>Title</p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:column -->

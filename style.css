@@ -2,7 +2,7 @@
 
 	Theme Name: Abisko
     Text Domain: abisko
-	Version: 1.0
+	Version: 1.0.2
 	Description: Abisko is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with 5 different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/abisko/
 	Tags: blog, portfolio, news, grid-layout, one-column, two-columns, three-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, block-patterns
 	Author: Anders Norén
@@ -35,6 +35,10 @@ strong, b {
 
 /* Input styles */
 
+label {
+	font-size: var( --wp--preset--font-size--small );
+}
+
 input, textarea, select, button {
 	background-color: inherit;
 	border-radius: 0;
@@ -54,8 +58,9 @@ input, textarea, select {
 	padding: .5em;
 }
 
-label {
-	font-size: var( --wp--preset--font-size--small );
+button,
+input[type="submit"] {
+	-webkit-appearance: none;
 }
 
 input[type="checkbox"] {
@@ -311,11 +316,13 @@ ol.wp-block-comment-template {
 	margin: 0 0 var( --wp--preset--spacing--70 );
 }
 
+.comment-reply-title a { text-underline-offset: 0.05em; }
+
 .wp-block-post-comments-form .comment-reply-title :where(small) {
 	display: block;
 	font-weight: 700;
 	letter-spacing: 0;
-	margin: 1em 0;
+	margin: 2em 0 1em;
 	text-transform: none;
 }
 
@@ -366,7 +373,7 @@ ol.wp-block-comment-template {
 		position: relative;
 	}
 
-	body:not(:has( ol.wp-block-comment-template .wp-block-post-comments-form )) .wp-block-post-comments-form.is-style-abisko-rotated-title .comment-reply-title {
+	body:not(:has( ol.wp-block-comment-template .wp-block-post-comments-form )) .wp-block-post-comments-form.is-style-abisko-rotated-title:not( :has( input[name="comment_parent"]:not([value="0"]) ) ) .comment-reply-title {
 		--col-width: calc( ( 100vw - var( --wp--style--global--content-size ) - var(--wp--style--root--padding-left) - var(--wp--style--root--padding-right) - var( --wp--preset--spacing--40 ) - var( --wp--preset--spacing--40 ) ) / 2 );
 		align-items: center;
 		display: flex;

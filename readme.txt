@@ -68,5 +68,14 @@ Source: https://www.rawpixel.com/image/5925234/photo-image-background-flower-pub
 
 == Changelog ==
 
-Version 1.0 (2023-XX-XX)
+Version 1.0.2 (2023-04-08)
+-------------------------
+- Set button elements to `-webkit-appearance: none;` to improve the styling of buttons on iOS.
+
+Version 1.0.1 (2023-04-04)
+-------------------------
+- Patterns: Updated the content of some patterns to be more consistent.
+- Comment respond: Disabled rotated title when responding to a comment with hard reload, preventing overflow.
+
+Version 1.0 (2023-03-26)
 -------------------------

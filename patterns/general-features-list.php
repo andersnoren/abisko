@@ -125,7 +125,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:heading {"level":3,"fontSize":"large"} -->
-						<h3 class="wp-block-heading has-large-font-size">Slim and fast</h3>
+						<h3 class="wp-block-heading has-large-font-size">Slim and Fast</h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph -->

@@ -17,7 +17,7 @@
 		<div class="wp-block-group"
 			style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 			<!-- wp:heading {"level":3,"fontSize":"heading-5"} -->
-			<h3 class="wp-block-heading has-heading-5-font-size">My story</h3>
+			<h3 class="wp-block-heading has-heading-5-font-size">My Story</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -46,7 +46,7 @@
 		<div class="wp-block-group"
 			style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 			<!-- wp:heading {"level":3,"fontSize":"heading-5"} -->
-			<h3 class="wp-block-heading has-heading-5-font-size">Get in touch</h3>
+			<h3 class="wp-block-heading has-heading-5-font-size">Get in Touch</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -75,7 +75,7 @@
 		<div class="wp-block-group"
 			style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 			<!-- wp:heading {"level":3,"fontSize":"heading-5"} -->
-			<h3 class="wp-block-heading has-heading-5-font-size">Follow me</h3>
+			<h3 class="wp-block-heading has-heading-5-font-size">Follow Me</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

@@ -17,20 +17,17 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
 				<!-- wp:image {"align":"center","width":96,"height":96,"linkDestination":"none"} -->
-				<figure class="wp-block-image aligncenter size-full is-resized"><img
-						src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-white.png" alt=""
-						width="96" height="96" /></figure>
+				<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/avatar-white.png" alt="" width="96" height="96" /></figure>
 				<!-- /wp:image -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"700"}},"fontSize":"heading-5"} -->
-					<h2 class="wp-block-heading has-text-align-center has-heading-5-font-size"
-						style="font-style:normal;font-weight:700;text-transform:none">Anders Norén</h2>
+					<h2 class="wp-block-heading has-text-align-center has-heading-5-font-size" style="font-style:normal;font-weight:700;text-transform:none">Your Name</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center">Designer and developer from Stockholm.</p>
+					<p class="has-text-align-center">A short description of you.</p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -41,21 +38,15 @@
 			<div class="wp-block-group"><!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
 				<div class="wp-block-buttons">
 					<!-- wp:button {"backgroundColor":"background","textColor":"foreground","width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-							class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Read
-							my Blog</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Read my Blog</a></div>
 					<!-- /wp:button -->
 
 					<!-- wp:button {"backgroundColor":"background","textColor":"foreground","width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-							class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Browse
-							my store</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Browse my store</a></div>
 					<!-- /wp:button -->
 
 					<!-- wp:button {"backgroundColor":"background","textColor":"foreground","width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a
-							class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Watch
-							my channel</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background wp-element-button">Watch my channel</a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->
