@@ -3,7 +3,7 @@ Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.2
 Requires PHP: 7.4
-Tested up to: 6.2
+Tested up to: 6.3
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,11 @@ Source: https://www.rawpixel.com/image/5925234/photo-image-background-flower-pub
 
 
 == Changelog ==
+
+Version 1.0.3 (2023-08-21)
+-------------------------
+- Removed opt-in of the opinionated wp-block-styles, since it causes issues with pull quote styles in 6.3.
+- Updated styles to account for removal of wp-block-styles.
 
 Version 1.0.2 (2023-04-08)
 -------------------------

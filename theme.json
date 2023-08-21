@@ -618,8 +618,11 @@
 			},
 			"core/quote": {
 				"border": {
-					"color": "var(--wp--preset--color--foreground)",
-					"width": "1px"
+					"left": {
+						"color": "var(--wp--preset--color--foreground)",
+						"style": "solid",
+						"width": "1px"
+					}
 				},
 				"elements": {
 					"cite": {

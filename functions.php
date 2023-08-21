@@ -5,7 +5,6 @@
 --------------------------------------------------------------------------------------------------- */
 
 function abisko_setup() {
-	add_theme_support( 'wp-block-styles' );
 	add_editor_style( 'style.css' );
 }
 add_action( 'after_setup_theme', 'abisko_setup' );
