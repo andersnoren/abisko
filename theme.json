@@ -393,6 +393,11 @@
 				},
 				"spacing": {
 					"blockGap": "max(16px, .45em)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-5)",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
 				}
 			},
 			"core/cover": {
@@ -614,6 +619,11 @@
 				},
 				"spacing": {
 					"blockGap": "max(16px, .45em)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-1)",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
 				}
 			},
 			"core/quote": {
@@ -872,5 +882,5 @@
 		}
 	],
 	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
 }

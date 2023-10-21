@@ -1,7 +1,7 @@
 === Abisko ===
 Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
-Requires at least: 6.2
+Requires at least: 6.3
 Requires PHP: 7.4
 Tested up to: 6.3
 Stable tag: trunk
@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Installation ==
 
-1. Make sure you're running WordPress 6.2 or later.
+1. Make sure you're running WordPress 6.3 or later.
 2. Upload the theme.
 3. Activate the theme.
 
@@ -67,6 +67,12 @@ Source: https://www.rawpixel.com/image/5925234/photo-image-background-flower-pub
 
 
 == Changelog ==
+
+Version 1.0.4 (2023-10-21)
+-------------------------
+- Moved the pagination typography styles from the block markup to the block settings in theme.json (thanks, @superlisa).
+- Removed "theme": "abisko" from <!-- wp:template-part /-->.
+- Bumped theme.json schema and "Requires at least" to 6.3.
 
 Version 1.0.3 (2023-08-21)
 -------------------------
