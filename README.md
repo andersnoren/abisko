@@ -20,7 +20,7 @@ Do you want to support the continued development of Abisko? You can send me a Pa
 
 ## Requirements
 - WordPress 6.2+
-- PHP 5.6+
+- PHP 7.4+
 - License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) or later
 
 ## Resources

@@ -3,7 +3,7 @@ Contributors: Anlino
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 6.3
 Requires PHP: 7.4
-Tested up to: 6.3
+Tested up to: 6.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,12 @@ Source: https://www.rawpixel.com/image/5925234/photo-image-background-flower-pub
 
 
 == Changelog ==
+
+Version 1.0.5 (2024-02-02)
+-------------------------
+- Set headings and heading sized text to auto hyphenate, improving the appearance of word breaks on small screens.
+- Modified the layout of the "Header Large" template part to enable hyphens.
+- Bumped theme.json schema and "Tested up to" to 6.4.
 
 Version 1.0.4 (2023-10-21)
 -------------------------

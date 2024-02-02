@@ -2,7 +2,7 @@
 
 	Theme Name: Abisko
     Text Domain: abisko
-	Version: 1.0.4
+	Version: 1.0.5
 	Description: Abisko is a stylish blog theme with a heavy emphasis on bold typography and generous amounts of whitespace. It comes with 5 different theme styles to choose from, and over 30 different block patterns that you can use to quickly build unique page layouts. Demo: https://andersnoren.se/themes/abisko/
 	Tags: blog, portfolio, news, grid-layout, one-column, two-columns, three-columns, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks, full-site-editing, block-patterns
 	Author: Anders Norén
@@ -11,7 +11,7 @@
 	License: GNU General Public License version 2.0
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Requires PHP: 7.4
-	Tested up to: 6.3
+	Tested up to: 6.4
 
 	All files, unless otherwise stated, are released under the GNU General Public License
 	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
@@ -129,6 +129,21 @@ h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.h
 /*	Typography
 /* --------------------------------- */
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+[class*="has-heading-"][class*="-font-size"],
+.has-huge-font-size {
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+	hyphens: auto;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
 
 .has-huge-font-size,
 .has-heading-1-font-size,
