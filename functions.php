@@ -15,7 +15,7 @@ add_action( 'after_setup_theme', 'abisko_setup' );
 --------------------------------------------------------------------------------------------------- */
 
 function abisko_styles() {
-	wp_enqueue_style( 'abisko-styles', get_theme_file_uri( '/style.css' ), array(), wp_get_theme( 'abisko' )->get( 'Version' ) );
+	wp_enqueue_style( 'abisko-styles', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'abisko' )->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'abisko_styles' );
 
